@@ -4,9 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   background: url("/bg_monomito_filmes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 .center {
   text-align: center;

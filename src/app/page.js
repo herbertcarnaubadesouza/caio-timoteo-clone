@@ -5,13 +5,15 @@ export default function Home() {
   return (
     <main className={styles.main}>
         <div className={styles.center}>
-        <Image
+        
+        {/* <Image
           src="/logo_monomito.svg"
           alt="Monomito Filmes Logo"
           width={500}
           height={500}
           priority
-        />
+        /> */}
+        
       </div>
     </main>
   );
