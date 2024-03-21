@@ -9,6 +9,9 @@ import { IoMdClose } from "react-icons/io";
 export const metadata = {
   title: "Monomito Filmes",
   description: "Muito mais que uma produtora de conteúdo audiovisual",
+  icons: {
+    icon: '/logo_monomito-menor.png', // /public path
+  }
 }
 
 export default function Home() {
