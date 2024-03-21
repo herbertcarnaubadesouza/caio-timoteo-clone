@@ -6,6 +6,11 @@ import { FaYoutube } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
+export const metadata = {
+  title: "My new title",
+  description: "My description",
+}
+
 export default function Home() {
   return (
     <section>
