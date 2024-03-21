@@ -4,14 +4,19 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
+import { IoMdClose } from "react-icons/io";
 
 export default function Home() {
   return (
     <section>
       <header className="cabecalho">
-        <div className="monomito-title">
+        <div>
           <a href="#"><h1 className="header-title">Monomito Filmes</h1></a>
-          <span className="close-menu">X</span>
+        </div>
+
+        <div className="openclose">
+          <IoMenu size="1.4em" color="white" />
+          <IoMdClose size="1.4em" color="white" />
         </div>
 
         <ul className="headerlist">

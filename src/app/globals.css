@@ -12,6 +12,7 @@ header {
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
+  padding: 1rem 0rem;
 }
 
 .header-title {
@@ -20,13 +21,15 @@ header {
   color: white;
 }
 
+.openclose {
+  cursor: pointer;
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
-.close-menu {
-  display: none;
-  color: white;
-}
+
 .headerlist {
   list-style: none;
   display: flex;
@@ -36,6 +39,7 @@ a {
   vertical-align: center;
   text-align: center;
   gap: 3rem;
+  padding-left: 0px;
 }
 
 .headerlist a {
@@ -47,7 +51,8 @@ a {
   align-items: center;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  padding: 0;
+  gap: 0.6rem;
 }
 
 .headeritemlist:hover {
@@ -62,8 +67,13 @@ a {
 @media (max-width: 768px) {
   header {
     display: flex;
-
     flex-direction: column;
+  }
+
+  .openclose {
+    display: flex;
+    cursor: pointer;
+
   }
 
   .headerlist {
@@ -73,7 +83,6 @@ a {
     gap: 0;
     width: 100%;
     padding-left: 0 ;
-    background-color: red;
   }  
   .headerlist a {
     width: 100%;
@@ -81,6 +90,7 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  
   .headerlist li {
     text-align: center;
     width: 100%;
