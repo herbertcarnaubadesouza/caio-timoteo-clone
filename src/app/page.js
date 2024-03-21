@@ -7,8 +7,8 @@ import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
 export const metadata = {
-  title: "My new title",
-  description: "My description",
+  title: "Monomito Filmes",
+  description: "Muito mais que uma produtora de conteúdo audiovisual",
 }
 
 export default function Home() {
