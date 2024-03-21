@@ -1,31 +1,103 @@
-*{
+body {
   margin: 0;
   padding: 0;
   outline: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
 }
 
-html, body {margin: 0; height: 100%; overflow: hidden}
-
 header {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(5, 5, 5);
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100%;
+  justify-content: space-evenly;
+  padding: 1rem 0rem;
+}
+
+.header-title {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: white;
+}
+
+.openclose {
+  cursor: pointer;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerlist {
+  list-style: none;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  vertical-align: center;
+  text-align: center;
+  gap: 3rem;
+  padding-left: 0px;
+}
+
+.headerlist a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .listaicones {
-  gap: 0 35px;
   align-items: center;
   list-style: none;
   display: flex;
+  padding: 0;
+  gap: 0.6rem;
 }
 
-.icones:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s ease, margin 0.5s ease;
-  margin: 0 5px;
+.headeritemlist:hover {
+  color: rgb(188, 188, 188);
+  transition: 0.5s ease;
 }
-.icones:not(:hover) {
-  transition: transform 0.4s ease-out, margin 0.5s ease-out;
+
+.imagem-monomito {
+  width: 100%!important;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .openclose {
+    display: flex;
+    cursor: pointer;
+
+  }
+
+  .headerlist {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0;
+    width: 100%;
+    padding-left: 0 ;
+  }  
+  .headerlist a {
+    width: 100%;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .headerlist li {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  
+  .close-menu {
+    display: block;
+  } 
 }
