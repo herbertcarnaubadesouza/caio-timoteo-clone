@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   padding: 0;
@@ -36,10 +38,9 @@ a {
   color: white;
   font-weight: 600;
   font-size: 1.2rem;
-  vertical-align: center;
   text-align: center;
-  gap: 3rem;
-  padding-left: 0px;
+  gap: 0 3rem;
+  padding-right: 5.2rem;
 }
 
 .headerlist a {
@@ -68,12 +69,22 @@ a {
   header {
     display: flex;
     flex-direction: column;
-  }
+    overflow: hidden;
+    }
 
   .openclose {
     display: flex;
     cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    margin-left: auto;
+  }
 
+  .itemsb {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
   }
 
   .headerlist {
@@ -96,8 +107,4 @@ a {
     width: 100%;
     display: block;
   }
-  
-  .close-menu {
-    display: block;
-  } 
 }

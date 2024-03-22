@@ -6,25 +6,19 @@ import { FaYoutube } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
-export const metadata = {
-  title: "Monomito Filmes",
-  description: "Muito mais que uma produtora de conteúdo audiovisual",
-  icons: {
-    icon: '/logo_monomito-menor.png', // /public path
-  }
-}
-
 export default function Home() {
   return (
     <section>
       <header className="cabecalho">
-        <div>
-          <a href="#"><h1 className="header-title">Monomito Filmes</h1></a>
-        </div>
+        <div className="itemsb">
+          <div>
+            <a href="#"><h1 className="header-title">Monomito Filmes</h1></a>
+          </div>
 
-        <div className="openclose">
-          <IoMenu size="1.4em" color="white" />
-          <IoMdClose size="1.4em" color="white" />
+          <div className="openclose">
+            <IoMenu size="1.4em" color="white" />
+            <IoMdClose size="1.4em" color="white" />
+          </div>
         </div>
 
         <ul className="headerlist">
