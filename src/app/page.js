@@ -22,7 +22,7 @@ export default function Home() {
         </div>
 
         <ul className="headerlist">
-          <a href="#"><li className="headeritemlist">Início</li></a>
+          <a href="#"><li className="headeritemlist">Inicio</li></a>
           <a href="#"><li className="headeritemlist">Projeto</li></a>
           <a href="#"><li className="headeritemlist">Sobre</li></a>
           <a href="#"><li className="headeritemlist">Contatos</li></a>

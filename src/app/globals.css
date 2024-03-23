@@ -1,4 +1,16 @@
+@font-face {
+  font-family:BebasKaiFont ;
+  src: url(../font/BebasKai.ttf);
+}
 
+@font-face {
+  font-family:PhonkFont ;
+  src: url(../font/Phonk\ Contrast\ DEMO.otf);
+}
+
+*{
+
+}
 
 body {
   margin: 0;
@@ -18,6 +30,7 @@ header {
 }
 
 .header-title {
+  font-family: BebasKaiFont;
   font-size: 1.3em;
   font-weight: 400;
   color: white;
@@ -33,6 +46,7 @@ a {
 }
 
 .headerlist {
+  font-family: PhonkFont;
   list-style: none;
   display: flex;
   color: white;
