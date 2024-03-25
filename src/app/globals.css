@@ -26,7 +26,7 @@ header {
 }
 
 .header-title {
-  font-family: BebasKaiFont;
+  font-family: PhonkFont;
   font-size: 2rem;
   font-weight: 400;
   color: white;
@@ -42,7 +42,7 @@ a {
 }
 
 .headerlist {
-  font-family: PhonkFont;
+  font-family: BebasKaiFont;
   list-style: none;
   display: flex;
   color: white;
