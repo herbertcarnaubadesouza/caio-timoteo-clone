@@ -8,10 +8,6 @@
   src: url(../font/Phonk\ Contrast\ DEMO.otf);
 }
 
-*{
-
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +27,7 @@ header {
 
 .header-title {
   font-family: BebasKaiFont;
-  font-size: 1.3em;
+  font-size: 2rem;
   font-weight: 400;
   color: white;
 }
@@ -51,10 +47,10 @@ a {
   display: flex;
   color: white;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   text-align: center;
-  gap: 0 3rem;
-  padding-right: 5.2rem;
+  gap: 0 1.5rem;
+  padding-left: 0;
 }
 
 .headerlist a {
@@ -62,11 +58,16 @@ a {
   color: inherit;
 }
 
+.headerlist li {
+  width: 100%;
+}
+
+
 .listaicones {
   align-items: center;
   list-style: none;
   display: flex;
-  padding: 0;
+  padding-left: 0;
   gap: 0.6rem;
 }
 
@@ -107,13 +108,11 @@ a {
     margin: 0 auto;
     gap: 0;
     width: 100%;
-    padding-left: 0 ;
   }  
   .headerlist a {
     width: 100%;
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 2rem 0;
   }
   
   .headerlist li {
