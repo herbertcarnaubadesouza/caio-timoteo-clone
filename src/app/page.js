@@ -12,7 +12,7 @@ export default function Home() {
       <header className="cabecalho">
         <div className="itemsb">
           <div>
-            <a href="#"><h1 className="header-title">Monomito Filmes</h1></a>
+            <a href="#"><h1 className="header-title">MONOMITO FILMES</h1></a>
           </div>
 
           <div className="openclose">
