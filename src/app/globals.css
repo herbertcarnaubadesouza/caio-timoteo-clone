@@ -8,12 +8,11 @@
   src: url(../font/Phonk\ Contrast\ DEMO.otf);
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  overflow-y: hidden;
 }
 
 header {
@@ -22,7 +21,7 @@ header {
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
-  padding: 0.85rem 0rem;
+  padding: 2.1rem 0rem;
 }
 
 .header-title {
@@ -30,7 +29,7 @@ header {
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
-  padding-left: 4rem;
+  text-wrap: nowrap;
 }
 
 .openclose {
@@ -50,13 +49,11 @@ a {
   font-weight: 600;
   font-size: 1.1rem;
   text-align: center;
-  padding-left: 1rem;
-  padding-right: 2rem;
   overflow: hidden;
+  gap: 2.2rem;
 }
 
 .headerlist a {
-  width: 90px;
   text-decoration: none;
   color: inherit;
 }
@@ -70,9 +67,7 @@ a {
   align-items: center;
   list-style: none;
   display: flex;
-  padding-left: 0;
   gap: 1rem;
-  padding-right: 10rem;
 }
 
 .headeritemlist:hover {
@@ -84,13 +79,6 @@ a {
   width: 100%!important;
 }
 
-@media (max-width: 946px) {
-  .headerlist {
-    padding-left: 3rem;
-  }
-}
-
-
 @media (max-width: 768px) {
   header {
     display: flex;
@@ -99,7 +87,7 @@ a {
     }
 
   .header-title {
-    padding-right: 4rem;
+    padding: 0;
   }
 
   .openclose {
