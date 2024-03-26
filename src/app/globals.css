@@ -30,7 +30,7 @@ header {
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
-  padding-left: 2rem;
+  padding-left: 4rem;
 }
 
 .openclose {
@@ -51,7 +51,7 @@ a {
   font-size: 1.1rem;
   text-align: center;
   padding-left: 1rem;
-  padding-right: 6rem;
+  padding-right: 2rem;
   overflow: hidden;
 }
 
@@ -72,7 +72,7 @@ a {
   display: flex;
   padding-left: 0;
   gap: 1rem;
-  padding-right: 4.5rem;
+  padding-right: 10rem;
 }
 
 .headeritemlist:hover {
@@ -86,7 +86,7 @@ a {
 
 @media (max-width: 946px) {
   .headerlist {
-    padding-left: 5rem;
+    padding-left: 3rem;
   }
 }
 
@@ -97,6 +97,10 @@ a {
     flex-direction: column;
     overflow: hidden;
     }
+
+  .header-title {
+    padding-right: 4rem;
+  }
 
   .openclose {
     display: flex;
