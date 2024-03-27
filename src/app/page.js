@@ -6,32 +6,27 @@ import { FaYoutube } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
-export const metadata = {
-  title: "Monomito Filmes",
-  description: "Muito mais que uma produtora de conteúdo audiovisual",
-  icons: {
-    icon: '/logo_monomito-menor.png', // /public path
-  }
-}
-
 export default function Home() {
   return (
     <section>
       <header className="cabecalho">
-        <div>
-          <a href="#"><h1 className="header-title">Monomito Filmes</h1></a>
-        </div>
+        <div className="itemsb">
+          <div>
+            <a href="#"><h1 className="header-title">MONOMITO FILMES</h1></a>
+          </div>
 
-        <div className="openclose">
-          <IoMenu size="1.4em" color="white" />
-          <IoMdClose size="1.4em" color="white" />
+          <div className="openclose">
+            <IoMenu size="1.4em" color="white" />
+            <IoMdClose size="1.4em" color="white" />
+          </div>
         </div>
 
         <ul className="headerlist">
-          <a href="#"><li className="headeritemlist">Início</li></a>
-          <a href="#"><li className="headeritemlist">Projeto</li></a>
-          <a href="#"><li className="headeritemlist">Sobre</li></a>
-          <a href="#"><li className="headeritemlist">Contatos</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Inicio</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Projetos</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Sobre</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Equipe</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Contatos</li></a>
         </ul> 
         <ul className="listaicones">
           <li className="icones">

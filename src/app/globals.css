@@ -1,24 +1,44 @@
-body {
+@font-face {
+  font-family:BebasKaiFont ;
+  src: url(../font/BebasKai.ttf);
+}
+
+@font-face {
+  font-family:PhonkFont ;
+  src: url(../font/Phonk\ Contrast\ DEMO.otf);
+}
+
+* {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  overflow-y: hidden;
+}
+
+section {
+  width: 100%;
+  overflow: hidden;
 }
 
 header {
   background-color: rgb(5, 5, 5);
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   justify-content: space-evenly;
-  padding: 1rem 0rem;
+  padding: 1.7rem 0;
+}
+
+header {
+  z-index: 100;
 }
 
 .header-title {
-  font-size: 1.3em;
+  font-family: PhonkFont;
+  font-size: 1.2rem;
   font-weight: 400;
   color: white;
+  text-wrap: nowrap;
 }
 
 .openclose {
@@ -31,15 +51,16 @@ a {
 }
 
 .headerlist {
+  text-align: center;
+  font-family: BebasKaiFont;
   list-style: none;
   display: flex;
   color: white;
   font-weight: 600;
-  font-size: 1.2rem;
-  vertical-align: center;
+  font-size: 1.1rem;
   text-align: center;
-  gap: 3rem;
-  padding-left: 0px;
+  overflow: hidden;
+  gap: 2.2rem;
 }
 
 .headerlist a {
@@ -51,8 +72,11 @@ a {
   align-items: center;
   list-style: none;
   display: flex;
-  padding: 0;
-  gap: 0.6rem;
+  gap: 1rem;
+}
+
+.icones {
+  padding-top: 4px;
 }
 
 .headeritemlist:hover {
@@ -60,35 +84,47 @@ a {
   transition: 0.5s ease;
 }
 
-.imagem-monomito {
-  width: 100%!important;
-}
-
 @media (max-width: 768px) {
   header {
     display: flex;
     flex-direction: column;
-  }
+    overflow: hidden;
+    }
 
   .openclose {
     display: flex;
     cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    margin-left: auto;
+  }
 
+  .itemsb {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+  }
+  
+  .header-title{
+    text-orientation: justify;
+    text-wrap: wrap;
   }
 
   .headerlist {
     flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
     gap: 0;
-    width: 100%;
-    padding-left: 0 ;
-  }  
+    padding: 0;
+  } 
+  
+  .headerlist br {
+    display: none;
+  }
+
   .headerlist a {
     width: 100%;
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 2rem 0;
   }
   
   .headerlist li {
@@ -96,8 +132,5 @@ a {
     width: 100%;
     display: block;
   }
-  
-  .close-menu {
-    display: block;
-  } 
+
 }
