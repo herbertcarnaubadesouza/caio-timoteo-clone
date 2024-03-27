@@ -15,13 +15,22 @@
   box-sizing: border-box;
 }
 
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
 header {
   background-color: rgb(5, 5, 5);
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   justify-content: space-evenly;
-  padding: 2.1rem 0rem;
+  padding: 1.7rem 0;
+}
+
+header {
+  z-index: 100;
 }
 
 .header-title {
@@ -42,6 +51,7 @@ a {
 }
 
 .headerlist {
+  text-align: center;
   font-family: BebasKaiFont;
   list-style: none;
   display: flex;
@@ -58,11 +68,6 @@ a {
   color: inherit;
 }
 
-.headerlist li {
-  width: 100%;
-}
-
-
 .listaicones {
   align-items: center;
   list-style: none;
@@ -70,13 +75,13 @@ a {
   gap: 1rem;
 }
 
+.icones {
+  padding-top: 4px;
+}
+
 .headeritemlist:hover {
   color: rgb(188, 188, 188);
   transition: 0.5s ease;
-}
-
-.imagem-monomito {
-  width: 100%!important;
 }
 
 @media (max-width: 768px) {
@@ -85,10 +90,6 @@ a {
     flex-direction: column;
     overflow: hidden;
     }
-
-  .header-title {
-    padding: 0;
-  }
 
   .openclose {
     display: flex;
@@ -104,15 +105,22 @@ a {
     width: 100vw;
     justify-content: center;
   }
+  
+  .header-title{
+    text-orientation: justify;
+    text-wrap: wrap;
+  }
 
   .headerlist {
     flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
     gap: 0;
-    width: 100%;
     padding: 0;
-  }  
+  } 
+  
+  .headerlist br {
+    display: none;
+  }
+
   .headerlist a {
     width: 100%;
     display: flex;
@@ -124,10 +132,5 @@ a {
     width: 100%;
     display: block;
   }
-
-  .listaicones {
-    padding-right: 0;
-  }
-
 
 }

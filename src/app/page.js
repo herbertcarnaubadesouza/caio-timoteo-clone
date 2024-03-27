@@ -22,11 +22,11 @@ export default function Home() {
         </div>
 
         <ul className="headerlist">
-          <a href="#"><li className="headeritemlist">Inicio</li></a>
-          <a href="#"><li className="headeritemlist">Projetos</li></a>
-          <a href="#"><li className="headeritemlist">Sobre</li></a>
-          <a href="#"><li className="headeritemlist">Equipe</li></a>
-          <a href="#"><li className="headeritemlist">Contatos</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Inicio</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Projetos</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Sobre</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Equipe</li></a>
+          <a className="item_link" href="#"><li className="headeritemlist">Contatos</li></a>
         </ul> 
         <ul className="listaicones">
           <li className="icones">
