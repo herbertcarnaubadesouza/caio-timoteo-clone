@@ -64,87 +64,69 @@ export default function Home() {
         </div>
 
         <div className="section-two">
-          <a href="#">
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_1.jpg"
               width={635}
               height={345}
               alt="Picture of the author"
               layout="responsive"
-            />
-          </a>
-          <a href="#">
-            <Image className="imagem-section-two"
+            />            
+            <Image
               src="/monomito_imagem_grid_2.jpg"
               width={635}
               height={345}
               alt="Picture of the author"
               layout="responsive"
-            />
-          </a>  
-          <a href="#">
-            <Image className="imagem-section-two"
+            />  
+            <Image
               src="/monomito_imagem_grid_3.jpg"
-              width={635}
+              width={633}
               height={345}
               alt="Picture of the author"
               layout="responsive"
-            />
-          </a> 
-          <a href="#">
-            <Image className="imagem-section-two"
+            /> 
+            <Image
               src="/monomito_imagem_grid_4.jpg"
-              width={635}
+              width={633}
               height={345}
               alt="Picture of the author"
               layout="responsive"
             />
-          </a>
-          <a href="#">
-            <Image className="imagem-section-two"
+            <Image
               src="/monomito_imagem_grid_5.jpg"
-              width={635}
+              width={633}
               height={345}
               alt="Picture of the author"
               layout="responsive"
             />
-          </a>
-          <a href="#">
-            <Image className="imagem-section-two"
+            <Image
               src="/monomito_imagem_grid_6.jpg"
-              width={635}
+              width={633}
               height={345}
               alt="Picture of the author"
               layout="responsive"
-            />
-          </a>      
-          <a href="#">
-            <Image className="imagem-section-two"
+            />      
+            <Image
               src="/monomito_imagem_grid_7.jpg"
-              width={635}
+              width={633}
               height={345}
               alt="Picture of the author"
               layout="responsive"
-            />
-          </a>      
-          <a href="#">
-            <Image className="imagem-section-two"
+            />      
+            <Image
               src="/monomito_imagem_grid_8.jpg"
-              width={635}
+              width={633}
               height={345}
               alt="Picture of the author"
               layout="responsive"
-            />
-          </a>      
-          <a href="#">
-            <Image className="imagem-section-two"
+            />      
+            <Image
               src="/monomito_imagem_grid_9.jpg"
-              width={635}
+              width={633}
               height={345}
               alt="Picture of the author"
               layout="responsive"
-            />
-          </a>      
+            />      
         </div>  
 
       </main>
