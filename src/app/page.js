@@ -61,6 +61,74 @@ export default function Home() {
         <div className="section-one">
           <h1 className="section-one-title">Monomito <br></br> Filmes</h1>
           <p className="section-one-text">Muito mais que uma produtora <br></br> de conteúdo audiovisual</p>
+        </div>
+
+        <div className="section-two">
+          <a href="#">
+            <Image className="imagem-section-two"
+              src="/monomito_imagem_grid_1.jpg"
+              width={635}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />
+          </a>
+            <Image
+              src="/monomito_imagem_grid_2.jpg"
+              width={635}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />  
+            <Image
+              src="/monomito_imagem_grid_3.jpg"
+              width={633}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            /> 
+            <Image
+              src="/monomito_imagem_grid_4.jpg"
+              width={633}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />
+            <Image
+              src="/monomito_imagem_grid_5.jpg"
+              width={633}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />
+            <Image
+              src="/monomito_imagem_grid_6.jpg"
+              width={633}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />      
+            <Image
+              src="/monomito_imagem_grid_7.jpg"
+              width={633}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />      
+            <Image
+              src="/monomito_imagem_grid_8.jpg"
+              width={633}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />      
+            <Image
+              src="/monomito_imagem_grid_9.jpg"
+              width={633}
+              height={345}
+              alt="Picture of the author"
+              layout="responsive"
+            />      
         </div>  
 
       </main>

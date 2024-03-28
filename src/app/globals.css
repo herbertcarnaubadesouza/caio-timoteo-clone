@@ -30,7 +30,10 @@ header {
   align-items: center;
   width: 100vw;
   justify-content: space-evenly;
-  padding: 1.7rem 0;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  padding-left: 0;
+  padding-right: 0;
   position: fixed;
 }
 
@@ -111,12 +114,12 @@ a {
 .section-one {
   padding-top: 6rem;
   padding-left: 4rem;
-  line-height: 4.2vh;
 }
 
 .section-one h1 {
   text-transform: uppercase;
   font-size: 5vh;
+  line-height: 4.2vh;
   font-family: PhonkFont;
 }
 
@@ -127,6 +130,45 @@ a {
   line-height: 3vh;
   color: white;
 }
+
+/*seção 3*/
+
+.section-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.section-two a {
+  width: 100%;
+  height: 100%;
+}
+
+.imagem-section-two{
+  font-size: 0;
+  text-decoration: none;
+}
+
+.overlay {
+  position: absolute;
+  width: 26.5rem;
+  height: 15rem;
+  background-color: rgba(0, 0, 0, 0.758);
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.section-two a {
+  height: 0;
+}
+
+.imagem-section-two:hover {
+  color: black;
+}
+
 
 @media (max-width: 768px) {
   header {
@@ -211,4 +253,11 @@ a {
     color: white;
   }
 
+  .section-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
 }
