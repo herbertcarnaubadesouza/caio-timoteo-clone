@@ -56,19 +56,13 @@ export default function Home() {
         </ul>
       </header>
 
+      <main>
 
+        <div className="section-one">
+          <h1 className="section-one-title">Monomito <br></br> Filmes</h1>
+          <p className="section-one-text">Muito mais que uma produtora <br></br> de conteúdo audiovisual</p>
+        </div>  
 
-      <main className={styles.main}>
-        <div className={styles.center}>
-          <Image className="imagem-monomito"
-            style={{ width: '100%', height: '100%', maxHeight: '300px'  }}
-            src="/logo_monomito.svg"
-            alt="Monomito Filmes Logo"
-            width={100}
-            height={100}
-            priority
-          />
-        </div>
       </main>
     </section>
   );

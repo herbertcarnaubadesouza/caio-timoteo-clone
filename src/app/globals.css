@@ -15,18 +15,23 @@
   box-sizing: border-box;
 }
 
+main {
+  padding-top: 5rem;
+}
+
 section {
   width: 100%;
   overflow: hidden;
 }
 
 header {
-  background-color: rgb(5, 5, 5);
+  background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   width: 100vw;
   justify-content: space-evenly;
   padding: 1.7rem 0;
+  position: fixed;
 }
 
 header {
@@ -84,9 +89,48 @@ a {
   transition: 0.5s ease;
 }
 
+/* Seção 1 */
+.section-one {
+  position: relative;
+  width: 100vw;
+  height: 666px;
+  background-image: url('/monomito_section_um.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-one-title{
+  align-items: center;
+  display: block;
+  justify-content: center;
+  color: white;
+  margin: auto;
+  padding: auto;
+}
+
+.section-one {
+  padding-top: 6rem;
+  padding-left: 4rem;
+  line-height: 4.2vh;
+}
+
+.section-one h1 {
+  text-transform: uppercase;
+  font-size: 5vh;
+  font-family: PhonkFont;
+}
+
+.section-one-text {
+  padding-top: 1rem;
+  font-size: 3vh;
+  font-family: BebasKaiFont;
+  line-height: 3vh;
+  color: white;
+}
+
 @media (max-width: 768px) {
   header {
-    display: flex;
+    display: block;
     flex-direction: column;
     overflow: hidden;
     }
@@ -116,9 +160,10 @@ a {
     gap: 0;
     padding: 0;
   } 
-  
-  .headerlist br {
-    display: none;
+
+  .listaicones {
+    display: flex;
+    justify-content: center;
   }
 
   .headerlist a {
@@ -131,6 +176,39 @@ a {
     text-align: center;
     width: 100%;
     display: block;
+  }
+
+  .section-one {
+    display: block;
+    padding: 0;
+    line-height: 5vh;
+  }
+
+  .section-one-title{
+    padding-top: 17rem;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .section-one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8vw;
+    line-height: 7vw;
+    font-family: PhonkFont;
+  }
+
+  .section-one-text {
+    margin-top: 5px;
+    text-align: center;
+    padding: 0;
+    font-size: 6vw;
+    line-height: 5vw;
+    font-family: BebasKaiFont;
+    color: white;
   }
 
 }
