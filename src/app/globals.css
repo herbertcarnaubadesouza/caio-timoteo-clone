@@ -100,6 +100,7 @@ a {
   background-image: url('/monomito_section_um.jpg');
   background-position: center;
   background-repeat: no-repeat;
+  background: cover;
 }
 
 .section-one-title{
@@ -173,7 +174,6 @@ a {
 @media (max-width: 768px) {
   header {
     display: block;
-    flex-direction: column;
     overflow: hidden;
     }
 
