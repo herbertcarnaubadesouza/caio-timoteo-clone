@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <section>
+    <section className="all-content">
       <header className="cabecalho">
         <div className="itemsb">
           <div>
@@ -56,11 +56,13 @@ export default function Home() {
         </ul>
       </header>
 
-      <main>
+      <main className="content-home">
 
         <div className="section-one">
-          <h1 className="section-one-title">Monomito <br></br> Filmes</h1>
-          <p className="section-one-text">Muito mais que uma produtora <br></br> de conteúdo audiovisual</p>
+          <section className="section-one--box-text">
+            <h1 className="section-one-title">Monomito <br></br> Filmes</h1>
+            <p className="section-one-text">Muito mais que uma produtora <br></br> de conteúdo audiovisual</p>
+          </section>
         </div>
 
         <div className="section-two">
@@ -128,7 +130,6 @@ export default function Home() {
               layout="responsive"
             />      
         </div>  
-
       </main>
     </section>
   );

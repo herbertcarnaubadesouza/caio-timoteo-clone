@@ -15,16 +15,16 @@
   box-sizing: border-box;
 }
 
-main {
+.content-home {
   padding-top: 5rem;
 }
 
-section {
+.all-content {
   width: 100%;
   overflow: hidden;
 }
 
-header {
+.cabecalho {
   background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@ header {
   position: fixed;
 }
 
-header {
+.cabecalho {
   z-index: 100;
 }
 
@@ -92,35 +92,41 @@ a {
   transition: 0.5s ease;
 }
 
+.container {
+  width: 100%;
+  max-width: 1024px;
+}
+
 /* Seção 1 */
 .section-one {
   position: relative;
   width: 100vw;
-  height: 666px;
+  height: 70vh;
   background-image: url('/monomito_section_um.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background: cover;
+  background-size: cover;
+  display: flex;
 }
-
-.section-one-title{
+.section-one--box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+.section-one-title {
   align-items: center;
   display: block;
   justify-content: center;
   color: white;
-  margin: auto;
+  margin: 0;
   padding: auto;
-}
-
-.section-one {
-  padding-top: 6rem;
-  padding-left: 4rem;
 }
 
 .section-one h1 {
   text-transform: uppercase;
-  font-size: 5vh;
-  line-height: 4.2vh;
+  font-size: 8vh;
+  line-height: 6.9vh;
   font-family: PhonkFont;
 }
 
@@ -172,7 +178,7 @@ a {
 
 
 @media (max-width: 768px) {
-  header {
+  .cabecalho {
     display: block;
     overflow: hidden;
     }
