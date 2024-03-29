@@ -149,6 +149,14 @@ export default function Home() {
         <div className="button-division">
             <button className="button-section-two">Mais Projetos</button>
         </div>
+        
+        {/* Seção 3 Video Embed */}
+        <div className="embed-video">
+        <iframe src="https://www.youtube.com/embed/ePSf1K_RkN8?vq=hd1080p&rel=0&iv_load_policy=3&hl=pt-br"
+          title="Recayd Mob - Plaqtudum (Ao Vivo Show) | prod MONOMITO" 
+          frameborder="0" allowfullscreen></iframe>
+        </div>
+        
       </main>
     </section>
   );
