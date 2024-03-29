@@ -152,10 +152,14 @@ export default function Home() {
         
         {/* Seção 3 Video Embed */}
         <div className="embed-video">
-          <iframe src="https://www.youtube.com/embed/ePSf1K_RkN8?vq=hd1080p&rel=0&iv_load_policy=3&hl=pt-br"
-          title="Recayd Mob - Plaqtudum (Ao Vivo Show) | prod MONOMITO" 
-          frameborder="0" allowfullscreen>
-          </iframe>
+
+
+        <iframe
+          src="https://www.youtube.com/embed/ePSf1K_RkN8?vq=hd1080p&rel=0&iv_load_policy=3&hl=pt-br"
+          frameborder="0"
+          allowfullscreen
+        />
+        
         </div>
         
       </main>
