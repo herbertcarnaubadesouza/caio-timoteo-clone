@@ -64,12 +64,12 @@ export default function Home() {
       </header>
 
       <main className="content-home">
+        {/* Seção 1 */}
         <div className="section-one">
           <section className="section-one--box-text">
             <h1 className="section-one-title">Monomito <br></br> Filmes</h1>
             <p className="section-one-text">Muito mais que uma produtora <br></br> de conteúdo audiovisual</p>
           </section>
-
           <section className="logo_monomito_section_um">
             <Image className="logo_monomito_um"
               src="/logo_monomito.png"
@@ -79,7 +79,7 @@ export default function Home() {
             />
           </section>
         </div>
-
+        {/* Seção 2 */}
         <div className="section-two">
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_1.jpg"
@@ -144,7 +144,11 @@ export default function Home() {
               alt="Rolê no ACK12 - Arte e Cultura na Kebrada | prod MONOMITO"
               layout="responsive"
             />      
-        </div>  
+        </div>
+        {/* Botão da seção 2 */}
+        <div className="button-division">
+            <button className="button-section-two">Mais Projetos</button>
+        </div>
       </main>
     </section>
   );

@@ -162,7 +162,7 @@ a {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: rgb(177, 177, 177);
+  background-color: rgb(0, 0, 0);
 }
 
 .section-two a {
@@ -171,8 +171,8 @@ a {
 }
 
 .imagem-section-two {
-  font-size: 0;
   text-decoration: none;
+
 }
 
 .section-two a {
@@ -180,9 +180,36 @@ a {
 }
 
 .imagem-section-two:hover {
-  opacity: 0.5;
+  opacity: 0.3;
   cursor: pointer;
+  transition: 0.5s;
 }
+.imagem-section-two:not(:hover) {
+  transition: 0.8s;
+}
+
+/* botão seção 2 */
+
+.button-division {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(8, 8, 8); /* Cor de fundo */
+  padding: 1.5vw 0;/* Espaçamento interno (vertical, horizontal) */
+  width: 100%;
+}
+
+.button-section-two {
+  font-family: BebasKaiFont;
+  font-size: 1.0vw;
+  border: none;
+  width: 8.7vw;
+  height: 2.2vw;
+  border-radius: 2px;
+}
+
+
+
+
 
 
 @media (max-width: 768px) {
@@ -286,4 +313,23 @@ a {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
+
+  .button-division {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 8, 8); /* Cor de fundo */
+    padding: 4vw;/* Espaçamento interno (vertical, horizontal) */
+    width: 100%;
+  }
+  
+  .button-section-two {
+    font-family: BebasKaiFont;
+    font-size: 2vw;
+    border: none;
+    width: 17vw;
+    height: 4vw;
+    border-radius: 2px;
+  }
+
+
 }
