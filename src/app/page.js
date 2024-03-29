@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { AiFillLinkedin } from "react-icons/ai";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
@@ -28,6 +29,7 @@ export default function Home() {
             <IoMenu size="1.4em" color="white" />
             <IoMdClose size="1.4em" color="white" />
           </div>
+
         </div>
 
         <ul className="headerlist">
@@ -53,15 +55,28 @@ export default function Home() {
             <FaYoutube size="1.4em" color="white"/> 
             </a>
           </li>
+          <li className="icones">
+            <a href="https://br.linkedin.com/company/monomito-filmes" target="_blank"> 
+            <AiFillLinkedin size="1.4em" color="white"/> 
+            </a>
+          </li>
         </ul>
       </header>
 
       <main className="content-home">
-
         <div className="section-one">
           <section className="section-one--box-text">
             <h1 className="section-one-title">Monomito <br></br> Filmes</h1>
             <p className="section-one-text">Muito mais que uma produtora <br></br> de conteúdo audiovisual</p>
+          </section>
+
+          <section className="logo_monomito_section_um">
+            <Image className="logo_monomito_um"
+              src="/logo_monomito.png"
+              width={150}
+              height={150}
+              alt="logo monomito"
+            />
           </section>
         </div>
 
@@ -70,63 +85,63 @@ export default function Home() {
               src="/monomito_imagem_grid_1.jpg"
               width={635}
               height={345}
-              alt="Picture of the author"
+              alt="Evidentemente - Jotad3 feat. Poeta Márcio Ricardo"
               layout="responsive"
             />           
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_2.jpg"
               width={635}
               height={345}
-              alt="Picture of the author"
+              alt="Lucas Koka Penteado | Tarja Preta | prod MONOMITO"
               layout="responsive"
             />  
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_3.jpg"
               width={633}
               height={345}
-              alt="Picture of the author"
+              alt="Khalil Magno - Ana Laura e Roni | Canto Monomito 1#"
               layout="responsive"
             /> 
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_4.jpg"
               width={633}
               height={345}
-              alt="Picture of the author"
+              alt="Mila Rapper | Tarja Preta | prod MONOMITO"
               layout="responsive"
             /> 
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_5.jpg"
               width={633}
               height={345}
-              alt="Picture of the author"
+              alt="NÃO É SÓ ISSO - MENTE MATÉRIA feat KIM - prod Rodrigo Cunha | prod MONOMITO FILMES"
               layout="responsive"
             />
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_6.jpg"
               width={633}
               height={345}
-              alt="Picture of the author"
+              alt="Carolina - CarraraFlow (prod Rodrigo Cunha)"
               layout="responsive"
             />      
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_7.jpg"
               width={633}
               height={345}
-              alt="Picture of the author"
+              alt="BIA FERREIRA | PUT YOUR RECORDS ON | prod MONOMITO"
               layout="responsive"
             />      
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_8.jpg"
               width={633}
               height={345}
-              alt="Picture of the author"
+              alt="Renato Pessoa - Voo | Canto Monomito 4#"
               layout="responsive"
             />      
             <Image className="imagem-section-two"
               src="/monomito_imagem_grid_9.jpg"
               width={633}
               height={345}
-              alt="Picture of the author"
+              alt="Rolê no ACK12 - Arte e Cultura na Kebrada | prod MONOMITO"
               layout="responsive"
             />      
         </div>  
