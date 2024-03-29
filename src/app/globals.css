@@ -187,7 +187,7 @@ a {
 
 @media (max-width: 768px) {
   .cabecalho {
-    display: none;
+    display: block;
     overflow: hidden;
     }
 
