@@ -156,6 +156,26 @@ export default function Home() {
          frameborder="0" autoplay="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
+        {/* Seção 4 "Sobre a Monomito Filmes" */}
+        <div className="sobre-monomito">
+          <div className="texts-sobre">
+            <h1>Sobre a Monomito Filmes</h1>
+
+            <p>A Monomito Filmes é uma produtora audiovisual com foco em impacto social.</p>
+
+            <p>Produzimos filmes publicitários, institucionais, vídeos de treinamento, comunicação interna, cobertura de eventos e outros produtos para comunicação audiovisual do seu negócio.</p>
+
+            <p>Cada produção é cuidadosamente elaborada, refletindo nossa essência, oferecendo não apenas informações, mas criando conexão real do que você quer falar para seu público.</p>
+
+            <p><strong>Compromisso Social:</strong></p>
+
+            <p>A missão da Monomito Filmes é utilizar a produção audiovisual como uma ferramenta para criar impacto social positivo. A empresa busca conectar histórias e democratizar o acesso à produção audiovisual profissional para grupos sub-representados, como artistas, músicos, coletivos culturais e empreendedores nas periferias.</p>
+          </div>
+          
+
+        </div>
+
+
       </main>
     </section>
   );
