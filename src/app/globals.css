@@ -229,7 +229,7 @@ a {
 
 .sobre-monomito {
   position: relative;
-  background-color: rgba(9, 9, 9, 0.952)
+  background-color: rgba(9, 9, 9, 0.977)
 }
 
 .sobre-monomito::before {
@@ -248,7 +248,7 @@ a {
 }
 
 .texts-sobre {
-  padding: 5% 20%;
+  padding: 6% 20%;
   color: white;
 }
 
@@ -266,9 +266,41 @@ a {
   text-transform: uppercase;
 }
 
+/* Seção 5 Nossas Conquistas */
+
+.nossas-conquistas {
+  background-color: black;
+  color: white;
+  padding: 5vw 10vw;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-allinfos {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.titulo-nossas-conquistas {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.container-infos {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+}
+
+
 @media (max-width: 768px) {
   .cabecalho {
-    display: block;
+    display: none;
     overflow: hidden;
     }
 
