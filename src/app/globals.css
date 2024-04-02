@@ -193,8 +193,8 @@ a {
 .button-division {
   display: flex;
   justify-content: center;
-  background-color: rgb(8, 8, 8); /* Cor de fundo */
-  padding: 1.5vw 0;/* Espaçamento interno (vertical, horizontal) */
+  background-color: rgb(8, 8, 8);
+  padding: 1.5vw 0;
   width: 100%;
 }
 
@@ -208,10 +208,12 @@ a {
   cursor: pointer;
 }
 
+/* Seção 3 Video Embed */
+
 .embed-video {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* Proporção de aspecto de 16:9 (9 dividido por 16 multiplicado por 100) */
+  padding-bottom: 56.25%;
   overflow: hidden;
 }
 
@@ -223,9 +225,82 @@ a {
   height: 100.1%;
 }
 
+/* Seção 4 Sobre a Monomito */
+
+.sobre-monomito {
+  position: relative;
+  background-color: rgba(9, 9, 9, 0.977)
+}
+
+.sobre-monomito::before {
+  content: "";
+  background-image: url('/sobre-bg-monomito.JPEG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -10;
+  opacity: 100%;
+}
+
+.texts-sobre {
+  padding: 6% 20%;
+  color: white;
+}
+
+.texts-sobre p {
+  font-size: 1.8vh;
+  font-family: BebasKaiFont;
+  font-weight: 100;
+  padding: 0.3rem 0rem;
+}
+
+.texts-sobre h1 {
+  font-size: 2vh;
+  padding-bottom: 1.4%;
+  font-family: PhonkFont;
+  text-transform: uppercase;
+}
+
+/* Seção 5 Nossas Conquistas */
+
+.nossas-conquistas {
+  background-color: black;
+  color: white;
+  padding: 5vw 10vw;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-allinfos {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.titulo-nossas-conquistas {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.container-infos {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+}
+
+
 @media (max-width: 768px) {
   .cabecalho {
-    display: block;
+    display: none;
     overflow: hidden;
     }
 
@@ -328,8 +403,8 @@ a {
   .button-division {
     display: flex;
     justify-content: center;
-    background-color: rgb(8, 8, 8); /* Cor de fundo */
-    padding: 4vw;/* Espaçamento interno (vertical, horizontal) */
+    background-color: rgb(8, 8, 8); 
+    padding: 4vw;
     width: 100%;
   }
   
@@ -342,5 +417,8 @@ a {
     border-radius: 2px;
   }
 
+  .texts-sobre {
+    padding: 10% 7%;
+  }
 
 }
