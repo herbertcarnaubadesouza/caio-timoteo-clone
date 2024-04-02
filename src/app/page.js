@@ -6,7 +6,7 @@ import { FaYoutube } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-import { GrTrophy } from "react-icons/gr";
+import { HiOutlineTrophy } from "react-icons/hi2";
 
 
 export const metadata = {
@@ -178,53 +178,39 @@ export default function Home() {
 
         {/* Seção 5 "Premios" */}
         <section className="nossas-conquistas">
-
           <div className="infos">
-            <h1 className="titulo-nossas-conquistas">Nossas Conquistas</h1>
-            
+            <h1 className="titulo-nossas-conquistas"><u>Nossas Conquistas</u></h1>
             <div className="container-allinfos">
               <div className="allinfos">
                   <div className="container-infos">
-                    <GrTrophy className="trofeu" size="2rem"/>
                     <div className="conquistas">
-                      <h1>Fundação - 2017</h1>
-                      <p>Já iniciamos as atividades produzindo um dos momentos mais importantes pra gente e para nosso público fazendo o Monomito Road trip - Batalha do tank vs SP onde levamos 50 jovens de diversas periferias de sp para participar da maior batalha de RAP do brasil no RJ em são gonçalo.</p>
+                      <h1><HiOutlineTrophy /> - 2017</h1>
+                      <p><strong>Batalha do tank vs SP:</strong> onde levamos 50 jovens de diversas periferias de sp para participar da maior batalha de RAP do brasil no RJ em são gonçalo.</p>
                     </div>
                   </div>
                   <div className="container-infos">
-                    <GrTrophy className="trofeu" size="2rem"/>
                     <div className="conquistas">
-                      <h1>- 2018</h1>
-                      <p>Projeto Tarja Preta: Alcançamos 100 poetas com o Projeto Tarja Preta</p>
+                      <h1><HiOutlineTrophy /> - 2018</h1>
+                      <p><strong>Coletivo Monomito:</strong>Instituímos a criação do Coletivo Monomito afim de fomentar a arte e a cultura de artistas independentes.
+                      Projeto Tarja Preta: Alcançamos 100 poetas com o Projeto Tarja Preta</p>
                     </div>
                   </div>
                   <div className="container-infos">
-                    <GrTrophy className="trofeu" size="2rem"/>
                     <div className="conquistas">
-                      <h1>- 2019</h1>
+                      <h1><HiOutlineTrophy /> - 2019</h1>
                       <p>Tarja Preta 2º edição: O Coletivo Monomito realiza a segunda edição do Tarja Preta com mais de 64 poetas de diversas periferias de São Paulo participando.</p>
                     </div>
                   </div>
                   <div className="container-infos">
-                    <GrTrophy className="trofeu" size="2rem"/>
                     <div className="conquistas">
-                      <h1>- 2020</h1>
+                      <h1><HiOutlineTrophy /> - 2020</h1>
                       <p>ANIP Aceleração: Entre 34 negócios fomos negócio destaque na aceleração de empresas de periféricas da ANIP realizada pela: ABanca, Artemisia e FGV.</p>
                     </div>
                   </div>
                   <div className="container-infos">
-                    <GrTrophy className="trofeu" size="2rem"/>
                     <div className="conquistas">
-                      <h1>- 2021</h1>
+                      <h1><HiOutlineTrophy /> - 2021</h1>
                       <p>Tarja Preta 3º edição: O Coletivo Monomito realiza a terceira edição do Projeto Tarja Preta onde aumentamos a aposta e o desafio de ampliar o acesso durante a pandemia e registramos e geramos renda para 32 poetas.</p>
-                    </div>
-                  </div>
-                  <div className="container-infos">
-                    <GrTrophy className="trofeu" size="2rem"/>
-                    <div className="conquistas">
-                      <h1>- 2022</h1>
-                      <p>Pixel Show: Onde fomos convidados a participar da Pixel reconhecido festival internacional de criatividade como expositores.
-                      </p>
                     </div>
                   </div>
               </div>
@@ -233,54 +219,40 @@ export default function Home() {
 
               <div className="allinfos-dois">
                 <div className="container-infos">
-                    <GrTrophy className="trofeu" size="2rem"/>
                       <div className="conquistas">
-                        <h1>- 2022</h1>
+                        <h1><HiOutlineTrophy /> - 2022</h1>
                         <p>Prêmio LED Rede Globo: fomos indicados no Prêmio LED Luz na educação com o projeto educacional Tarja Preta.</p>
                       </div>
                     </div>
                     <div className="container-infos">
-                      <GrTrophy className="trofeu" size="2rem"/>
                       <div className="conquistas">
-                        <h1>- 2022</h1>
+                        <h1><HiOutlineTrophy /> - 2022</h1>
                         <p>46º Mostra Internacional de Cinema de São Paulo: Como expositores em parceria com a SPCine, Instituto Criar e Adesampa.
                         </p>
                       </div>
                     </div>
                     <div className="container-infos">
-                      <GrTrophy className="trofeu" size="2rem"/>
                       <div className="conquistas">
-                        <h1>- 2023</h1>
+                        <h1><HiOutlineTrophy /> - 2023</h1>
                         <p>Expo Favela: Fomos selecionados mais uma vez para expor e fazer uma participação no meet sobre mercado de economia criativa.
                         </p>
                       </div>
                     </div>
                     <div className="container-infos">
-                      <GrTrophy className="trofeu" size="2rem"/>
                       <div className="conquistas">
-                        <h1>- 2024</h1>
+                        <h1><HiOutlineTrophy /> - 2024</h1>
                         <p>SXSW24: Fomos convidados pela ADESampa para participar do painel da CasaSP sobre economia criativa.</p>
                       </div>
                     </div>
                     <div className="container-infos">
-                      <GrTrophy className="trofeu" size="2rem"/>
                       <div className="conquistas">
-                        <h1>- 2024</h1>
+                        <h1><HiOutlineTrophy /> - 2024</h1>
                         <p>Tarja Preta 4º edição: Nesta edição estamos preparando a produção de 20 mini documentários de poetas e artistas periféricos da cidade, culminando na mostra Tarja Preta e no lançamento do livro do projeto.</p>
-                      </div>
-                    </div>
-                    <div className="container-infos">
-                      <GrTrophy className="trofeu" size="2rem"/>
-                      <div className="conquistas">
-                        <h1>- 2024</h1>
-                        <p>Lab Monomito: Criação do Lab Monomito hub de criatividade audiovisual na zona leste de SP onde promovemos acesso ao audiovisual para jovens e pequenos empreendedores de territórios de periferia e favela.</p>
                       </div>
                     </div>
               </div>
             </div>
-            
           </div>
-
         </section>
 
 
