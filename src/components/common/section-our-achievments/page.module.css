@@ -1,0 +1,182 @@
+.our_achievements {
+  box-sizing: border-box;
+}
+
+.our_achievements_wrapper {
+  background-color: black;
+  color: white;
+  padding: 4rem;
+}
+
+.our_achievements_allinfos_container_achievements h1 {
+  font-size: 27px;
+  padding-bottom: 5px;
+  padding-top: 23px;
+  margin-left: 5%;
+  display: flex;
+}
+
+.trofeu {
+  width: 100px;
+}
+
+.our_achievements_allinfos {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.our_achievements_allinfos_container p {
+  color: rgb(205, 205, 205);
+}
+
+.our_achievements_title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.our_achievements_allinfos_container {
+  gap: 10rem;
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (max-width: 768px) {
+  .cabecalho {
+    display: none;
+    overflow: hidden;
+  }
+
+  .openclose {
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    margin-left: auto;
+  }
+
+  .itemsb {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .header-title {
+    text-orientation: justify;
+    text-wrap: wrap;
+  }
+
+  .headerlist {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+
+  .listaicones {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerlist a {
+    width: 100%;
+    display: flex;
+    padding: 2rem 0;
+  }
+
+  .headerlist li {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-one--box-text {
+    margin-left: 0;
+  }
+
+  .section-one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 8vw;
+    line-height: 7vw;
+    font-family: PhonkFont;
+  }
+
+  .section-one-text {
+    margin-top: 5px;
+    text-align: center;
+    padding: 0;
+    font-size: 6vw;
+    line-height: 5vw;
+    font-family: BebasKaiFont;
+    color: white;
+  }
+
+  .logo_monomito_section_um {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo_monomito_um {
+    margin: 0%;
+    margin-top: 2%;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .section-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .button-division {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+    padding: 4vw;
+    width: 100%;
+  }
+
+  .button-section-two {
+    font-family: BebasKaiFont;
+    font-size: 2vw;
+    border: none;
+    width: 17vw;
+    height: 4vw;
+    border-radius: 2px;
+  }
+
+  .texts-sobre {
+    padding: 10% 7%;
+  }
+
+  .container-allinfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .our_achievements_allinfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+}

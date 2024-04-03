@@ -1,0 +1,48 @@
+.datasheet_section {
+    width: 100%;
+    background: #444;
+}
+
+.datasheet_section_wrapper {
+    margin: 0 auto;
+    padding: 30px 0 0;
+    width: 60%;
+}
+
+.datasheet_section_wrapper_header {
+    margin-bottom: 12px;
+}
+
+.datasheet_section_wrapper_title {
+    font-family: PhonkFont;
+    font-size: 50px;
+}
+
+.datasheet_section_wrapper_subtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.datasheet_section_wrapper_gridcontainer {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.datasheet_section_wrapper_gridcontainer_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .datasheet_section_wrapper {
+        width: 80%;
+    }
+
+    .datasheet_section_wrapper_gridcontainer {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }

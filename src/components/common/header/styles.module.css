@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: space-evenly;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: rgb(0, 0, 0);
+  z-index: 100;
+}
+
+.header_title {
+  font-family: PhonkFont;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  text-wrap: nowrap;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.open_close {
+  cursor: pointer;
+  display: none;
+}
+
+.header_list {
+  text-align: center;
+  font-family: BebasKaiFont;
+  list-style: none;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  overflow: hidden;
+  gap: 2.2rem;
+}
+
+.header_list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list_icons {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.icons {
+  padding-top: 4px;
+}
+
+.headeritemlist:hover {
+  color: rgb(188, 188, 188);
+  transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header_list {
+    margin-top: 20px;
+  }
+}

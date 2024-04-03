@@ -1,4 +1,8 @@
 import { Roboto } from "next/font/google";
+import { Header } from "@/components/common/header";
+import { SectionAboutMonomito } from "@/components/common/section-about-monomit";
+import { SectionOurAchievements } from "@/components/common/section-our-achievments";
+import ScrollTop from "@/components/common/scroll-top";
 import "./globals.css";
 
 const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
@@ -10,8 +14,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={roboto.className}>{children}</body>
+    <html lang="pt-BR">
+      <body className={roboto.className}>
+        <Header />
+        {children}
+        <SectionAboutMonomito />
+        <SectionOurAchievements />
+        <ScrollTop />
+      </body>
     </html>
   );
 }

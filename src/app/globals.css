@@ -1,10 +1,10 @@
 @font-face {
-  font-family:BebasKaiFont ;
+  font-family: BebasKaiFont;
   src: url(../font/BebasKai.ttf);
 }
 
 @font-face {
-  font-family:PhonkFont ;
+  font-family: PhonkFont;
   src: url(../font/Phonk\ Contrast\ DEMO.otf);
 }
 
@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-.content-home {
+.content-page {
   padding-top: 5rem;
 }
 
@@ -24,191 +24,10 @@
   overflow: hidden;
 }
 
-.cabecalho {
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  justify-content: space-evenly;
-  padding-top: 1.7rem;
-  padding-bottom: 1.7rem;
-  padding-left: 0;
-  padding-right: 0;
-  position: fixed;
-}
-
-.cabecalho {
-  z-index: 100;
-}
-
-.header-title {
-  font-family: PhonkFont;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: white;
-  text-wrap: nowrap;
-}
-
-.openclose {
-  cursor: pointer;
-  display: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.headerlist {
-  text-align: center;
-  font-family: BebasKaiFont;
-  list-style: none;
-  display: flex;
-  color: white;
-  font-weight: 600;
-  font-size: 1.1rem;
-  text-align: center;
-  overflow: hidden;
-  gap: 2.2rem;
-}
-
-.headerlist a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.listaicones {
-  align-items: center;
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.icones {
-  padding-top: 4px;
-}
-
-.headeritemlist:hover {
-  color: rgb(188, 188, 188);
-  transition: 0.5s ease;
-}
-
 .container {
   width: 100%;
   max-width: 1024px;
 }
-
-/* Seção 1 */
-.section-one {
-  width: 100%;
-  height: 70vh;
-  background-image: url('/monomito_section_um.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-}
-.section-one--box-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 5%;
-}
-.section-one-title {
-  align-items: center;
-  display: block;
-  justify-content: center;
-  color: white;
-  margin: 0;
-  padding: auto;
-}
-
-.section-one h1 {
-  text-transform: uppercase;
-  font-size: 8vh;
-  line-height: 6.9vh;
-  font-family: PhonkFont;
-}
-
-.section-one-text {
-  padding-top: 1rem;
-  font-size: 3vh;
-  font-family: BebasKaiFont;
-  line-height: 3vh;
-  color: white;
-}
-
-.logo_monomito_section_um {
-  display: flex;
-  flex-direction: column-reverse;
-  width: 100vw;
-  justify-content: end;
-  align-items: end;
-}
-
-.logo_monomito_um {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    margin-bottom: 3vh;
-    margin-right: 3vh;
-}
-
-
-/*seção 2*/
-
-.section-two {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: rgb(0, 0, 0);
-}
-
-.section-two a {
-  width: 100%;
-  height: 100%;
-}
-
-.imagem-section-two {
-  text-decoration: none;
-
-}
-
-.section-two a {
-  height: 0;
-}
-
-.imagem-section-two:hover {
-  opacity: 0.3;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.imagem-section-two:not(:hover) {
-  transition: 0.8s;
-}
-
-/* botão seção 2 */
-
-.button-division {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(8, 8, 8);
-  padding: 1.5vw 0;
-  width: 100%;
-}
-
-.button-section-two {
-  font-family: BebasKaiFont;
-  font-size: 1.0vw;
-  border: none;
-  width: 8.7vw;
-  height: 2.2vw;
-  border-radius: 2px;
-  cursor: pointer;
-}
-
-/* Seção 3 Video Embed */
 
 .embed-video {
   position: relative;
@@ -225,222 +44,31 @@ a {
   height: 100.1%;
 }
 
-/* Seção 4 Sobre a Monomito */
-
-.sobre-monomito {
-  position: relative;
-  background-color: rgba(9, 9, 9, 0.977)
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
-.sobre-monomito::before {
-  content: "";
-  background-image: url('/sobre-bg-monomito.JPEG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  z-index: -10;
-  opacity: 100%;
-}
-
-.texts-sobre {
-  padding: 6% 20%;
-  color: white;
-}
-
-.texts-sobre p {
-  font-size: 1.8vh;
-  font-family: BebasKaiFont;
-  font-weight: 100;
-  padding: 0.3rem 0rem;
-}
-
-.texts-sobre h1 {
-  font-size: 2vh;
-  padding-bottom: 1.4%;
-  font-family: PhonkFont;
-  text-transform: uppercase;
-}
-
-/* Seção 5 Nossas Conquistas */
-
-.infos {
-  background-color: black;
-  color: white;
-  padding: 4rem;
-}
-
-.conquistas h1 {
-  font-size: 27px;
-  padding-bottom: 5px;
-  padding-top: 23px;
-  margin-left: 5%;
-  display: flex;
-}
-
-.trofeu {
-  width: 100px;
-}
-
-
-.container-allinfos {
-  display: flex;
-  justify-content: space-around;
-  gap: 5rem;
-}
-
-.container-infos p {
-  color: rgb(205, 205, 205);
-}
-
-
-.titulo-nossas-conquistas {
-  font-size: 2rem;
-  margin-bottom: 3rem;
+.swiper-slide {
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  background: #030303;
+  color: #FFF;
+  height: 500px !important;
 }
 
-.container-infos {
-  gap: 10rem;
-  display: flex;
+.swiper-slide img {
+  display: block;
   width: 100%;
-  max-width: 400px;
+  height: 100%;
+  object-fit: cover;
 }
 
-
-@media (max-width: 768px) {
-  .cabecalho {
-    display: none;
-    overflow: hidden;
-    }
-
-  .openclose {
-    display: flex;
-    cursor: pointer;
-    position: absolute;
-    right: 2rem;
-    margin-left: auto;
-  }
-
-  .itemsb {
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    justify-content: center;
-  }
-  
-  .header-title{
-    text-orientation: justify;
-    text-wrap: wrap;
-  }
-
-  .headerlist {
-    flex-direction: column;
-    gap: 0;
-    padding: 0;
-  } 
-
-  .listaicones {
-    display: flex;
-    justify-content: center;
-  }
-
-  .headerlist a {
-    width: 100%;
-    display: flex;
-    padding: 2rem 0;
-  }
-  
-  .headerlist li {
-    text-align: center;
-    width: 100%;
-    display: block;
-  }
-
-  .section-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .section-one--box-text {
-    margin-left: 0;
-  }
-
-  .section-one-title{
-  }
-
-  .section-one h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 8vw;
-    line-height: 7vw;
-    font-family: PhonkFont;
-  }
-
-  .section-one-text {
-    margin-top: 5px;
-    text-align: center;
-    padding: 0;
-    font-size: 6vw;
-    line-height: 5vw;
-    font-family: BebasKaiFont;
-    color: white;
-  }
-
-  .logo_monomito_section_um {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .logo_monomito_um{
-    margin: 0%;
-    margin-top: 2%;
-    width: 6rem;
-    height: 6rem;
-  }
-
-  .section-two {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-  }
-
-  .button-division {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(8, 8, 8); 
-    padding: 4vw;
-    width: 100%;
-  }
-  
-  .button-section-two {
-    font-family: BebasKaiFont;
-    font-size: 2vw;
-    border: none;
-    width: 17vw;
-    height: 4vw;
-    border-radius: 2px;
-  }
-
-  .texts-sobre {
-    padding: 10% 7%;
-  }
-
-  .container-allinfos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
-  }
-
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination {
+  color: #FFF !important;
 }

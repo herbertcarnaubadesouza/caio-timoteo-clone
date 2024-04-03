@@ -1,0 +1,44 @@
+.about_monomito {
+  position: relative;
+  background-color: rgba(9, 9, 9, 0.977);
+}
+
+.about_monomito::before {
+  content: "";
+  background-image: url("/sobre-bg-monomito.JPEG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -10;
+  opacity: 100%;
+}
+
+.about_monomito {
+  padding: 6% 20%;
+  color: white;
+}
+
+.about_monomito p {
+  font-size: 1.8vh;
+  font-family: BebasKaiFont;
+  font-weight: 100;
+  padding: 0.3rem 0rem;
+}
+
+.about_monomito h1 {
+  font-size: 2vh;
+  padding-bottom: 1.4%;
+  font-family: PhonkFont;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .about_monomito {
+    padding: 10% 7%;
+  }
+}

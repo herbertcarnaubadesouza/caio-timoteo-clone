@@ -1,0 +1,34 @@
+.section_gallery {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #000;
+}
+
+.section_gallery h2 {
+    padding: 60px 0 20px;
+    color: #FFF;
+}
+
+.section_gallery_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #000;
+}
+
+.section_gallery_grid_image {
+    text-decoration: none;
+}
+ 
+
+.section_gallery_grid_image:hover {
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.section_gallery_grid_image:not(:hover) {
+    transition: 0.8s;
+}
