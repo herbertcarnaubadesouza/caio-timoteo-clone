@@ -268,33 +268,48 @@ a {
 
 /* Seção 5 Nossas Conquistas */
 
-.nossas-conquistas {
+.infos {
   background-color: black;
   color: white;
-  padding: 5vw 10vw;
+  padding: 4rem;
 }
 
-.infos {
+.conquistas h1 {
+  font-size: 27px;
+  padding-bottom: 5px;
+  padding-top: 23px;
+  margin-left: 5%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
+
+.trofeu {
+  width: 100px;
+}
+
 
 .container-allinfos {
   display: flex;
-  justify-content: space-between;
-  gap: 150px;
+  justify-content: space-around;
+  gap: 5rem;
 }
+
+.container-infos p {
+  color: rgb(205, 205, 205);
+}
+
 
 .titulo-nossas-conquistas {
   font-size: 2rem;
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .container-infos {
-  max-width: 400px;
-  width: 100%;
+  gap: 10rem;
   display: flex;
+  width: 100%;
+  max-width: 400px;
 }
 
 
@@ -419,6 +434,13 @@ a {
 
   .texts-sobre {
     padding: 10% 7%;
+  }
+
+  .container-allinfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
   }
 
 }
