@@ -9,7 +9,7 @@ export const SectionGallery = () => {
         <section className={styles.section_gallery}>
             <div>
                 <h2>
-                    Todos os projetos da Monomito's
+                    Todos os projetos da Monomito&apos;s
                 </h2>
             </div>
             <div className={styles.section_gallery_grid}>
