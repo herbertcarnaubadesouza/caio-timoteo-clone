@@ -130,7 +130,7 @@ export const SectionOurAchievements = () => {
             <div className={styles.our_achievements_allinfos_container}>
               <div className={styles.our_achievements_allinfos_container_achievements}>
                 <h1>
-                  <HiOutlineTrophy /> - 2021
+                  <HiOutlineTrophy /> - 2024
                 </h1>
                 <p>
                   <strong>Tarja Preta 4º edição: </strong>
