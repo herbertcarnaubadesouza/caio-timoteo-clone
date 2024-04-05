@@ -1,9 +1,9 @@
 "use client"
 import React, { useEffect, useState, Fragment } from "react"
 import { BsArrowUp } from "react-icons/bs";
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
-const ScrollTop = () => {
+export const ScrollTop = () => {
   const [isActive, setIsActive] = useState(false)
 
   useEffect(() => {
@@ -32,5 +32,3 @@ const ScrollTop = () => {
     </Fragment>
   )
 }
-
-export default ScrollTop

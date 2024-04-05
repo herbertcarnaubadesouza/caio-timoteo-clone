@@ -141,41 +141,6 @@ export const projects = [
     },
     {
         id: 5,
-        searchableKey:"/mente-materia",
-        artistName: "NÃO É SÓ ISSO - MENTE MATÉRIA feat KIM - prod Rodrigo Cunha | prod MONOMITO FILMES",
-        artistCoverImage: "/monomito_imagem_grid_5.jpg",
-        artistCoverImageAlt: "NÃO É SÓ ISSO - MENTE MATÉRIA feat KIM - prod Rodrigo Cunha | prod MONOMITO FILMES",
-        artistCoverImageTitle: "NÃO É SÓ ISSO - MENTE MATÉRIA feat KIM - prod Rodrigo Cunha | prod MONOMITO FILMES",
-        artistVideoUrl: "https://www.youtube.com/embed/ePSf1K_RkN8?autoplay=1&mute=1&disablekb=1&controls=0",
-        artistPhotograpyDirection: "Ricardo Camargo",
-        artistCEO: "Diretor Executivo",
-        artistProductionDirector: "Diretor Executivo",
-        artistFocus: "Diretor Executivo",
-        artistCameraOperator: "Diretor Executivo",
-        artistGaffer: ["Um", "Dois"],
-        artistArtDirection: "Lilian Cabral",
-        artistProduction: [
-            "Maria Jardine",
-            "Bianca Landulpho",
-            "Camila Campos",
-            "Romário Viana",
-        ],
-        artistCostume: "Patricia Passos",
-        artistMakeUp: "Elena Passos",
-        artistPictures: [
-            "/monomito_imagem_grid_1.jpg",
-            "/monomito_imagem_grid_2.jpg",
-            "/monomito_imagem_grid_3.jpg",
-            "/monomito_imagem_grid_4.jpg",
-            "/monomito_imagem_grid_5.jpg",
-            "/monomito_imagem_grid_6.jpg",
-            "/monomito_imagem_grid_7.jpg",
-            "/monomito_imagem_grid_8.jpg",
-            "/monomito_imagem_grid_9.jpg",
-        ]
-    },
-    {
-        id: 6,
         searchableKey:"/carolina",
         artistName: "Carolina - CarraraFlow (prod Rodrigo Cunha)",
         artistCoverImage: "/monomito_imagem_grid_6.jpg",
@@ -210,7 +175,7 @@ export const projects = [
         ]
     },
     {
-        id: 7,
+        id: 6,
         searchableKey:"/bia-ferreira",
         artistName: "BIA FERREIRA | PUT YOUR RECORDS ON | prod MONOMITO",
         artistCoverImage: "/monomito_imagem_grid_7.jpg",
@@ -245,7 +210,7 @@ export const projects = [
         ]
     },
     {
-        id: 8,
+        id: 7,
         searchableKey:"/renato-pessoa",
         artistName: "Renato Pessoa - Voo | Canto Monomito 4#",
         artistCoverImage: "/monomito_imagem_grid_8.jpg",
@@ -280,7 +245,7 @@ export const projects = [
         ]
     },
     {
-        id: 9,
+        id: 8,
         searchableKey:"/arte-e-cultura-na-kebrada",
         artistName: "Rolê no ACK12 - Arte e Cultura na Kebrada | prod MONOMITO",
         artistCoverImage: "/monomito_imagem_grid_9.jpg",

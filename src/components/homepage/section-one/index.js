@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import styles from "./styles.module.css";
 
@@ -18,7 +19,8 @@ export const SectionOne = () => {
           src="/logo_monomito.png"
           width={150}
           height={150}
-          alt="logo monomito"
+          alt="Monomito Filmes"
+          title="Monomito Filmes"
         />
       </section>
     </div>

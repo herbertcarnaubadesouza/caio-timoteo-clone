@@ -24,7 +24,9 @@ export const SectionTwo = () => {
             </div>
             <div className={styles.section_two_see_more}>
                 <button className={styles.section_two_see_more_button}>
-                    + Veja Mais Projetos
+                    <Link href="/projetos">
+                        + Veja Mais Projetos
+                    </Link>
                 </button>
             </div>
         </section>

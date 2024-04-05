@@ -1,15 +1,15 @@
 "use client"
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 import { projects } from "@/utils/projects"
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 export const SectionGallery = () => {
     return (
         <section className={styles.section_gallery}>
             <div>
                 <h2>
-                    Todos os projetos da Monomito&apos;s
+                    Todos os projetos da Monomito Filmes
                 </h2>
             </div>
             <div className={styles.section_gallery_grid}>

@@ -1,5 +1,6 @@
-import Image from "next/image"
-import styles from "./styles.module.css"
+"use client"
+import Image from "next/image";
+import styles from "./styles.module.css";
 
 export const DataSheet = ({ artist }) => {
     return (
@@ -169,9 +170,10 @@ export const DataSheet = ({ artist }) => {
                     <div>
                         <Image
                             src="/ficha-tecnica.png"
-                            alt="Ficha Tecnica"
                             width={500}
                             height={500}
+                            alt="Ficha Tecnica"
+                            title="Ficha Tecnica"
                             layout="responsive"
                         />
                     </div>

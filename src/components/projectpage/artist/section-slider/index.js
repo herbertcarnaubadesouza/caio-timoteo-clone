@@ -1,13 +1,17 @@
 "use client"
+import { useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Pagination, Navigation, EffectCoverflow } from "swiper/modules";
-import styles from "./page.module.css"
+import { LightBox } from "@/components/projectpage/artist/lightbox";
+import styles from "./page.module.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 export const SectionSlider = ({ pictures }) => {
+    const [isLightboxOpen, setIsLightboxOpen] = useState(false)
+
     return (
         <section className={styles.slider_section}>
             <Swiper
@@ -20,29 +24,39 @@ export const SectionSlider = ({ pictures }) => {
                 effect={'coverflow'}
                 centeredSlides={true}
                 coverflowEffect={{
-                rotate: 20,
+                rotate: 0,
                 stretch: 0,
-                depth: 20,
+                depth: 0,
                 modifier: 1,
                 slideShadows: true,
                 }}
                 breakpoints={{
                     1024: {
-                      slidesPerView: 3
+                      slidesPerView: 4
                     },
-                  }}
+                }}
             >
                 {pictures.map((picture, index) => (
                     <SwiperSlide key={index}>
-                        <Image
-                            src={picture}
-                            width={500}
-                            height={500}
-                            alt="Fotos"
-                        />
+                        <>
+                            <Image
+                                src={picture}
+                                width={500}
+                                height={500}
+                                alt="Foto"
+                                onClick={() => setIsLightboxOpen(true)}
+                            />
+                            
+                        </>
                     </SwiperSlide>
                 ))}
             </Swiper>
+            {isLightboxOpen && (
+                <LightBox
+                    setIsLightboxOpen={setIsLightboxOpen}
+                    pictures={pictures}
+                />
+            )}
         </section>
     )
 }

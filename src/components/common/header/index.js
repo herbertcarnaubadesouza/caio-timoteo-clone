@@ -1,11 +1,11 @@
+"use client"
 import Link from "next/link";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import Image from "next/image";
+import { FaFacebookSquare, FaInstagram, FaYoutube } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 export const Header = () => {
   return (
@@ -13,9 +13,13 @@ export const Header = () => {
       <div className={styles.header_link}>
         <div>
           <Link href="/">
-            <h1 className={styles.header_title}>
-              MONOMITO FILMES
-            </h1>
+            <Image
+              src="/logo_monomito.svg"
+              width={200}
+              height={80}
+              alt="Monomito Filmes"
+              title="Monomito Filmes"
+            />
           </Link>
         </div>
         <div className={styles.open_close}>
@@ -31,14 +35,14 @@ export const Header = () => {
         <Link className={styles.item_link} href="/projetos">
           <li className={styles.headeritemlist}>Projetos</li>
         </Link>
-        <Link className={styles.item_link} href="#">
+        <Link className={styles.item_link} href="/sobre">
           <li className={styles.headeritemlist}>Sobre</li>
         </Link>
-        <Link className={styles.item_link} href="#">
+        <Link className={styles.item_link} href="/equipe">
           <li className={styles.headeritemlist}>Equipe</li>
         </Link>
-        <Link className={styles.item_link} href="#">
-          <li className={styles.headeritemlist}>Contatos</li>
+        <Link className={styles.item_link} href="/contato">
+          <li className={styles.headeritemlist}>Contato</li>
         </Link>
       </ul>
       <ul className={styles.list_icons}>

@@ -1,0 +1,114 @@
+.about {
+    padding: 60px 0;
+    width: 100%;
+    background-color: #000;
+}
+
+.about_wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.about_title {
+    display: flex;
+    justify-content: center;
+}
+
+.about_title h1 {
+    font-family: PhonkFont;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.about_logo {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about_logo img {
+    filter: invert(1);
+}
+
+.about_shortDescription {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.about_shortDescription span {
+    font-family: BebasKaiFont;
+    font-size: 50px;
+    line-height: 0px;
+    color: #FFF;
+}
+
+.about_shortDescription p {
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+.about_description {
+    margin-top: 120px;
+    width: 100%;
+}
+
+.about_description h2 {
+    font-family: PhonkFont;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.about_description_texts {
+    margin-top: 50px;
+}
+
+.about_description_texts p {
+    margin-bottom: 16px;
+    width: 60%;
+    font-size: 20px;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        padding: 30px 0;
+    }
+
+    .about_logo img {
+        width: 80%;
+        height: 210px;
+    }
+
+    .about_shortDescription {
+        width: 100%;
+    }
+
+    .about_shortDescription p {
+        font-size: 15px;
+    }
+
+    .about_title h1 {
+        font-size: 2rem;
+    }
+    
+    .about_description {
+        margin-top: 50px;
+    }
+
+    .about_description h2 {
+        font-size: 2rem;
+    }
+
+    .about_description_texts {
+        margin-top: 20px;
+    }
+
+    .about_description_texts p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+}

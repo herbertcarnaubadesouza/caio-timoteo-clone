@@ -1,13 +1,23 @@
-import styles from "./styles.module.css"
+"use client"
+import styles from "./styles.module.css";
 
 export const SectionAboutMonomito = () => {
   return (
     <section className={styles.about_monomito}>
       <div className={styles.about_monomito_texts}>
         <h1>Sobre a Monomito Filmes</h1>
+
+        <p>
+          <strong>Quem Somos:</strong>
+        </p>
+
         <p>
           A Monomito Filmes é uma produtora audiovisual com foco em impacto
           social.
+        </p>
+
+        <p>
+          <strong>O que Fazemos:</strong>
         </p>
 
         <p>

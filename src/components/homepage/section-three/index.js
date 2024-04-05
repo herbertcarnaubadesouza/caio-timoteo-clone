@@ -1,3 +1,4 @@
+"use client"
 import styles from "./styles.module.css";
 
 export const SectionThree = () => {
@@ -9,8 +10,8 @@ export const SectionThree = () => {
             height="315"
             src="https://www.youtube.com/embed/ePSf1K_RkN8?autoplay=1&mute=1&disablekb=1&controls=0"
             title="YouTube video player"
-            frameBorder="0"
-            autoPlay="1"
+            style={{ border: 0 }}
+            autoPlay
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
