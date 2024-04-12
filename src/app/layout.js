@@ -2,6 +2,7 @@ import { Roboto } from "next/font/google";
 import { Header } from "@/components/common/header";
 import { HeaderMobile } from "@/components/common/header-mobile";
 import { SectionAboutMonomito } from "@/components/common/section-about-monomito";
+import { SectionOurServices } from "@/components/common/section-our-services";
 import { SectionOurAchievements } from "@/components/common/section-our-achievments";
 import { ContactForm } from "@/components/common/contact-form";
 import { WhatsAppButton } from "@/components/common/whatsapp-button";
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <HeaderMobile />
         {children}
         <SectionAboutMonomito />
+        <SectionOurServices />
         <SectionOurAchievements />
         <ContactForm />
         <WhatsAppButton />

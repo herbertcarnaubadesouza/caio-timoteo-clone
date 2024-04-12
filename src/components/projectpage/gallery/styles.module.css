@@ -34,7 +34,7 @@
     transition: 0.8s;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .section_gallery h2 {
         font-size: 20px;
         padding: 0px 0px 30px;

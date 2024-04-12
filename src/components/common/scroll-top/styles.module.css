@@ -21,7 +21,7 @@
     height: 40px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .scroll_top {
         bottom: 25px;
         right: 15px;

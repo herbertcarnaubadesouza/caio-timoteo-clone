@@ -103,12 +103,13 @@
     font-size: 22px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .contactform_section {
         padding: 0 0 60px;
     }
 
     .contactform_wrapper {
+        width: 90%;
         flex-direction: column;
     }
 

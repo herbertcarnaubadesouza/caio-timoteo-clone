@@ -37,7 +37,7 @@
     gap: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .datasheet_section_wrapper {
         width: 80%;
     }

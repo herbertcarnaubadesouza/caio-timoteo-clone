@@ -3,11 +3,18 @@
   display: flex;
   align-items: center;
   width: 100vw;
+  height: 80px;
   justify-content: space-evenly;
   padding-left: 0;
   padding-right: 0;
   background-color: rgb(0, 0, 0);
   z-index: 100;
+}
+
+.header_link a {
+  font-family: BebasKaiFont;
+  font-size: 16px;
+  color: #FFF;
 }
 
 .header_title {
@@ -61,11 +68,11 @@
 }
 
 .headeritemlist:hover {
-  color: rgb(188, 188, 188);
+  color: #25D366;
   transition: 0.5s ease;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .header {
     display: none;
   }

@@ -13,13 +13,9 @@ export const Header = () => {
       <div className={styles.header_link}>
         <div>
           <Link href="/">
-            <Image
-              src="/logo_monomito.svg"
-              width={200}
-              height={80}
-              alt="Monomito Filmes"
-              title="Monomito Filmes"
-            />
+            <h1>
+              Monomito Filmes
+            </h1>
           </Link>
         </div>
         <div className={styles.open_close}>

@@ -15,13 +15,11 @@ export const HeaderMobile = () => {
         <header className={styles.header_mobile}>
             <div className={styles.header_mobile_wrapper}>
                 <div className={styles.header_mobile_logo}>
-                    <Image
-                        src="/logo_monomito.svg"
-                        width={110}
-                        height={50}
-                        alt="Monomito Filmes"
-                        title="Monomito Filmes"
-                    />
+                    <Link href="/">
+                        <h1>
+                            Monomito Filmes
+                        </h1>
+                    </Link>
                 </div>
                 <div className={styles.header_mobile_hamburguer}>
                     <button onClick={() => setIsOpen(true)}>
@@ -29,74 +27,72 @@ export const HeaderMobile = () => {
                     </button>
                 </div>
             </div>
-            {isOpen && (
-                <div className={styles.menu}>
-                    <div className={styles.menu_close}>
-                        <button onClick={() => setIsOpen(false)}>
-                            <IoClose />
-                        </button>
-                    </div>
-                    <div className={styles.menu_listWrapper}>
-                        <ul className={styles.menu_list}>
-                            <li>
-                                <Link href="/">
-                                    Início
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/projetos">
-                                    Projetos
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/sobre">
-                                    Sobre
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/equipe">
-                                    Equipe
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/contato">
-                                    Contato
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className={styles.menu_socials}>
-                        <ul className={styles.menu_socials_wrapper}>
-                            <li>
-                                <Link href="https://www.facebook.com/monomitofilmes/" target="_blank">
-                                    <FaFacebookSquare color="white" />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="https://www.instagram.com/monomitofilmes/" target="_blank">
-                                    <FaInstagram color="white" />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="https://www.youtube.com/channel/UCFacycfmcN-9HwOue4qE07Q"
-                                    target="_blank"
-                                >
-                                    <FaYoutube color="white" />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="https://br.linkedin.com/company/monomito-filmes"
-                                    target="_blank"
-                                >
-                                    <AiFillLinkedin color="white" />
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+            <div className={`${styles.menu} ${isOpen && styles.active}`}>
+                <div className={styles.menu_close}>
+                    <button onClick={() => setIsOpen(false)}>
+                        <IoClose />
+                    </button>
                 </div>
-            )}
+                <div className={styles.menu_listWrapper}>
+                    <ul className={styles.menu_list}>
+                        <li>
+                            <a href="/">
+                                Início
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/projetos">
+                                Projetos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/sobre">
+                                Sobre
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/equipe">
+                                Equipe
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contato">
+                                Contato
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles.menu_socials}>
+                    <ul className={styles.menu_socials_wrapper}>
+                        <li>
+                            <Link href="https://www.facebook.com/monomitofilmes/" target="_blank">
+                                <FaFacebookSquare color="white" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="https://www.instagram.com/monomitofilmes/" target="_blank">
+                                <FaInstagram color="white" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href="https://www.youtube.com/channel/UCFacycfmcN-9HwOue4qE07Q"
+                                target="_blank"
+                            >
+                                <FaYoutube color="white" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href="https://br.linkedin.com/company/monomito-filmes"
+                                target="_blank"
+                            >
+                                <AiFillLinkedin color="white" />
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </header>
     )
 }

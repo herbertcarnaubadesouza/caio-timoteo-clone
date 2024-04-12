@@ -44,11 +44,20 @@
 
 .section_two_see_more_button {
   font-family: BebasKaiFont;
-  font-size: 22px;
+  font-size: 27px;
+  font-weight: bold;
   border: none;
   padding: 14px 40px;
-  border-radius: 2px;
+  transition: all .3s;
   cursor: pointer;
+}
+
+.section_two_see_more_button:hover {
+  background-color: #333;
+}
+
+.section_two_see_more_button:hover a {
+  color: #FFF;
 }
 
 .section_two_see_more_button a {
@@ -56,7 +65,7 @@
   color: #000;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .section_two_card {
     grid-template-columns: repeat(1, 1fr);
   }

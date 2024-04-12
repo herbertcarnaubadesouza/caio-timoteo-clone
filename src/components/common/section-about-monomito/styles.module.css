@@ -42,7 +42,7 @@
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .about_monomito {
     padding: 10% 7%;
   }
