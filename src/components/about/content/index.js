@@ -127,7 +127,7 @@ export const AboutContent = () => {
                                 </li>
                                 <li>
                                     <p>
-                                        Filme Pipa: Lançamos nosso primeiro curtametragem "PIPA", dirigido e
+                                        Filme Pipa: Lançamos nosso primeiro curtametragem &quot;PIPA&quot;, dirigido e
                                         roteirizado por Juliana Jesus lançado pelo projeto Curta em Casa do 
                                         Instituto Criar.
                                     </p>
