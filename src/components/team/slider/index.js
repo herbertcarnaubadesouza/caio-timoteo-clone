@@ -1,13 +1,12 @@
 "use client";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Keyboard, Navigation, EffectFlip } from "swiper/modules";
+import { Keyboard, Navigation } from "swiper/modules";
 import { team } from "@/utils/team";
 import styles from "./styles.module.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import "swiper/css/effect-flip";
 
 export const TeamSlider = () => {
     return (
@@ -24,8 +23,7 @@ export const TeamSlider = () => {
                         grabCursor={true}
                         navigation={true}
                         loop={true}
-                        modules={[Keyboard, Navigation, EffectFlip]}
-                        effect={"flip"}
+                        modules={[Keyboard, Navigation]}
                         centeredSlides={true}
                     >
                         {team.map((people) => (

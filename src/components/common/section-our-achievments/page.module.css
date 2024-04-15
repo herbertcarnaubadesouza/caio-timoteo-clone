@@ -13,7 +13,7 @@
   margin: 0 auto 0;
 }
 
-.our_achievements_title h1 {
+.our_achievements_title h2 {
   font-family: PhonkFont;
   font-size: 3rem;
 }
@@ -57,10 +57,12 @@
   margin-bottom: 20px;
 }
 
-.our_achievements_allinfos_container_achievements h1 {
+.our_achievements_allinfos_container_achievements h3 {
   padding-bottom: 5px;
   padding-top: 23px;
   display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 27px;
   color: #25D366;
 }
@@ -71,7 +73,7 @@
   color: #FFF;
 }
 
-.our_achievements_allinfos_container_achievements h1 span {
+.our_achievements_allinfos_container_achievements h3 span {
   margin: 0 5px;
 }
 
@@ -98,8 +100,13 @@
     width: 90%;
   }
 
-  .our_achievements_title h1 {
+  .our_achievements_title h2 {
     font-size: 2rem;
+    text-align: center;
+  }
+
+  .our_achievements_allinfos_container {
+    max-width: max-content;
   }
 
   .our_achievements_title p {

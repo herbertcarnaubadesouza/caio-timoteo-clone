@@ -105,6 +105,19 @@ a {
   height: 100%;
 }
 
+@media only screen and (max-width: 640px) {
+  .swiper-coverflow {
+    height: 410px;
+  }
+}
+
+@media only screen and (min-width: 1284px) {
+  .swiper-coverflow {
+    height: 380px;
+  }
+}
+
+
 .swiper-slide {
   display: flex;
   justify-content: center;

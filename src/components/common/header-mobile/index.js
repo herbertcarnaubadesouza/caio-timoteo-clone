@@ -29,6 +29,11 @@ export const HeaderMobile = () => {
             </div>
             <div className={`${styles.menu} ${isOpen && styles.active}`}>
                 <div className={styles.menu_close}>
+                    <Link href="/">
+                    <h1>
+                        Monomito Filmes
+                    </h1>
+                    </Link>
                     <button onClick={() => setIsOpen(false)}>
                         <IoClose />
                     </button>

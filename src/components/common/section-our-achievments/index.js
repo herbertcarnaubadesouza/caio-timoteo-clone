@@ -9,12 +9,9 @@ export const SectionOurAchievements = () => {
     <section className={styles.our_achievements}>
       <div className={styles.our_achievements_wrapper}>
         <div className={styles.our_achievements_title}>
-          <h1>
-            Nossa
-          </h1>
-          <h1>
-            Jornada
-          </h1>
+          <h2>
+            Nossa jornada
+          </h2>
           <p>
             Com 4 anos de jornada em produção audiovisual, contamos com uma 
             equipe treinada e especializada, equipamentos compatíveis com o 
@@ -31,9 +28,8 @@ export const SectionOurAchievements = () => {
         <div className={styles.our_achievements_allinfos}>
           <div className={styles.our_achievements_allinfos_container}>
             <div className={styles.our_achievements_allinfos_container_achievements}>
-              <h1>
+              <h3>
                 <HiOutlineTrophy />
-                <span>-</span>
                 <CountUp
                   start="2000"
                   end="2022"
@@ -41,7 +37,7 @@ export const SectionOurAchievements = () => {
                   enableScrollSpy
                   separator=""
                 />
-              </h1>
+              </h3>
               <ul>
                 <li>
                   <p>
@@ -85,9 +81,8 @@ export const SectionOurAchievements = () => {
           </div>
           <div className={styles.our_achievements_allinfos_container}>
             <div className={styles.our_achievements_allinfos_container_achievements}>
-              <h1>
+              <h3>
                 <HiOutlineTrophy />
-                <span>-</span>
                 <CountUp
                   start="2000"
                   end="2023"
@@ -95,7 +90,7 @@ export const SectionOurAchievements = () => {
                   enableScrollSpy
                   separator=""
                 />
-              </h1>
+              </h3>
               <ul>
                 <li>
                   <p>
@@ -128,9 +123,8 @@ export const SectionOurAchievements = () => {
           </div>
           <div className={styles.our_achievements_allinfos_container}>
             <div className={styles.our_achievements_allinfos_container_achievements}>
-              <h1>
+              <h3>
                 <HiOutlineTrophy />
-                <span>-</span>
                 <CountUp
                   start="2000"
                   end="2024"
@@ -138,7 +132,7 @@ export const SectionOurAchievements = () => {
                   enableScrollSpy
                   separator=""
                 />
-              </h1>
+              </h3>
               <ul>
                 <li>
                   <p>

@@ -15,10 +15,7 @@ export const SectionOurServices = () => {
         <section className={styles.ourServives}>
             <div className={styles.ourServives_title}>
                 <h2>
-                    Transforme suas ideias
-                </h2>
-                <h2>
-                    em videos criativos
+                    Transforme suas ideias em videos criativos
                 </h2>
             </div>
             <div className={styles.ourServives_wrapper}>

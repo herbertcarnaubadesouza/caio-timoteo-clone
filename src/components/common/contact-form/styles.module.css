@@ -121,5 +121,6 @@
      .contactform_texts h3 {
         width: 100%;
         font-size: 2rem;
+        text-align: center;
      }
 }

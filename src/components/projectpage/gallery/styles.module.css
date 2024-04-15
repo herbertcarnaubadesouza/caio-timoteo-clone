@@ -7,6 +7,7 @@
 .section_gallery h2 {
     padding: 60px 0 90px;
     font-family: PhonkFont;
+    font-size: 3rem;
     text-align: center;
     color: #FFF;
 }
@@ -36,7 +37,7 @@
 
 @media only screen and (max-width: 1024px) {
     .section_gallery h2 {
-        font-size: 20px;
+        font-size: 2rem;
         padding: 0px 0px 30px;
     }
 

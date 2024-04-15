@@ -58,17 +58,19 @@
     font-family: PhonkFont;
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
     color: #FFF;
 }
 
 .about_description_texts {
-    margin-top: 50px;
+    margin: 50px auto 0;
+    width: 70%;
 }
 
 .about_description_texts p {
     margin-bottom: 16px;
-    width: 60%;
     font-size: 20px;
+    text-align: center;
     color: #FFF;
 }
 
@@ -76,19 +78,32 @@
     padding: 20px 0;
 }
 
+.about_lastYears > div {
+    margin: 0 auto;
+    width: 60%;
+}
+
 .about_lastYears h2 {
     font-family: PhonkFont;
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
     color: #FFF;
+}
+
+.about_lastYears_texts {
+    display: grid;
 }
 
 .about_lastYears_texts h3 {
     margin: 44px 0 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     font-family: PhonkFont;
     font-size: 1.8rem;
     font-weight: bold;
-    color: #FFF;
+    color: #25D366;
 }
 
 .about_lastYears_texts ul {
@@ -99,7 +114,6 @@
 
 .about_lastYears_texts p {
     margin: 20px 0;
-    width: 60%;
     font-size: 1.3rem;
     font-weight: 400;
     color: #FFF;
@@ -139,11 +153,16 @@
 
     .about_description_texts {
         margin-top: 20px;
+        width: 100%;
     }
 
     .about_description_texts p {
         width: 100%;
         font-size: 15px;
+    }
+
+    .about_lastYears > div {
+        width: 100%;
     }
 
     .about_lastYears h2 {

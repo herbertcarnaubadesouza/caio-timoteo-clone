@@ -19,12 +19,17 @@
 }
 
 .about_monomito {
-  padding: 6% 20%;
+  padding: 6% 0;
   color: white;
 }
 
+.about_monomito > div:first-of-type {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .about_monomito p {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 100;
   padding: 0.3rem 0rem 0.8rem;
 }
@@ -47,8 +52,17 @@
     padding: 10% 7%;
   }
 
+  .about_monomito > div:first-of-type {
+    width: 100%;
+  }
+
   .about_monomito h1 {
     padding-bottom: 6.4%;
+    font-size: 2rem;
+  }
+
+  .about_monomito strong {
+    font-size: 1.5rem;
   }
 
   .about_monomito p {
