@@ -1,8 +1,9 @@
 import { ContactContent } from "@/components/contact";
 
 export const metadata = {
-  title: "Monomito Filmes - Sobre",
+  title: "Monomito Filmes - Contato",
   description: "Muito mais que uma produtora de conteúdo audiovisual",
+  author: "Bruno Carvalho Feitosa",
   icons: {
     icon: "/logo_monomito-menor.png",
   },

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Keyboard, Pagination, Navigation, EffectCoverflow } from "swiper/modules";
+import { Keyboard, Navigation, EffectCoverflow } from "swiper/modules";
 import { LightBox } from "@/components/projectpage/artist/lightbox";
 import styles from "./page.module.css";
 import "swiper/css";
@@ -17,20 +17,22 @@ export const SectionSlider = ({ pictures }) => {
             <Swiper
                 slidesPerView={1}
                 grabCursor={true}
-                pagination={{ type: 'fraction' }}
                 navigation={true}
                 loop={true}
-                modules={[Keyboard, Pagination, Navigation, EffectCoverflow]}
+                modules={[Keyboard, Navigation, EffectCoverflow]}
                 effect={'coverflow'}
                 centeredSlides={true}
                 coverflowEffect={{
-                rotate: 0,
-                stretch: 0,
-                depth: 0,
-                modifier: 1,
-                slideShadows: true,
+                    rotate: 0,
+                    stretch: 0,
+                    depth: 0,
+                    modifier: 1,
+                    slideShadows: true,
                 }}
                 breakpoints={{
+                    768: {
+                      slidesPerView: 2
+                    },
                     1024: {
                       slidesPerView: 4
                     },

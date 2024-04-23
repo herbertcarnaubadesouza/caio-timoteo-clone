@@ -23,28 +23,51 @@
   color: white;
 }
 
-.about_monomito > div:first-of-type {
+.about_monomito_texts {
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
 }
 
-.about_monomito p {
-  font-size: 17px;
-  font-weight: 100;
-  padding: 0.3rem 0rem 0.8rem;
+.about_monomito_texts > div {
+  margin: 0 auto;
+  width: 60%;
 }
 
-.about_monomito h1 {
+.about_monomito_texts h2 {
   font-size: 4vh;
   padding-bottom: 1.4%;
   font-family: PhonkFont;
+  text-align: center;
   text-transform: uppercase;
 }
 
-.about_monomito strong {
+.about_monomito_texts p {
+  margin-bottom: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.3rem 0rem 0.8rem;
+}
+
+.about_monomito_texts a {
+  margin: 0 auto;
+  padding: 14px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: #FFF;
   font-family: BebasKaiFont;
-  font-size: 2.6vh;
-  margin-top: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.about_monomito_texts a:hover {
+  background-color: #333;
+  color: #FFF;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -52,11 +75,15 @@
     padding: 10% 7%;
   }
 
-  .about_monomito > div:first-of-type {
+  .about_monomito_texts {
     width: 100%;
   }
 
-  .about_monomito h1 {
+  .about_monomito_texts > div {
+    width: 100%;
+  }
+
+  .about_monomito_texts h2 {
     padding-bottom: 6.4%;
     font-size: 2rem;
   }

@@ -90,7 +90,7 @@ export const ContactForm = () => {
                             Vamos fazer um projeto juntos
                         </h3>
                         <p>
-                            Monomitos Filmes
+                            Monomito Filmes
                         </p>
                         <p>
                             Itaim Paulista / SP

@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import Image from "next/image";
 import styles from "./styles.module.css";
 
-export const SectionOne = () => {
+export const SectionBanner = () => {
   return (
     <div className={styles.section_one}>
       <section className={styles.section_one_box_text}>

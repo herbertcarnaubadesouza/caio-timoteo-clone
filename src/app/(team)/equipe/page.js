@@ -1,8 +1,9 @@
-import { TeamSlider } from "@/components/team/slider";
+import { TeamGallery } from "@/components/team/gallery";
 
 export const metadata = {
   title: "Monomito Filmes - Nossa equipe",
   description: "Muito mais que uma produtora de conteúdo audiovisual",
+  author: "Bruno Carvalho Feitosa",
   icons: {
     icon: "/logo_monomito-menor.png",
   },
@@ -12,7 +13,7 @@ export const metadata = {
     return (
       <section className="all-content">
         <main className="content-page">
-          <TeamSlider />
+          <TeamGallery />
         </main>
       </section>
     );

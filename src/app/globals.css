@@ -145,8 +145,4 @@ a {
   .content-page {
     padding-top: 0;
   }
-
-  .swiper-slide img {
-    object-fit: none;
-  }
 }

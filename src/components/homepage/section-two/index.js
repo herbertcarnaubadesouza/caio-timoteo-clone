@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/utils/projects";
 import styles from "./styles.module.css";
 
-export const SectionTwo = () => {
+export const SectionProjects = () => {
     return (
         <section className={styles.section_two}>
             <div className={styles.section_two_card}>
