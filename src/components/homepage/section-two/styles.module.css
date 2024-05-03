@@ -37,7 +37,7 @@
 .section_two_see_more {
   display: flex;
   justify-content: center;
-  background-color: rgb(8, 8, 8);
+  background-color: #000;
   padding: 3.5vw 0;
   width: 100%;
 }
