@@ -48,7 +48,10 @@ export const TeamGallery = () => {
                                             {people.name}
                                         </h2>
                                         <p>
-                                            {people.description}
+                                            {people.descriptionOne}
+                                        </p>
+                                        <p>
+                                            {people.descriptionTwo}
                                         </p>
                                     </div>
                                 </div>

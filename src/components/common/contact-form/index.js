@@ -95,10 +95,13 @@ export const ContactForm = () => {
                         <p>
                             Itaim Paulista / SP
                         </p>
+                        <p>
+                            CNPJ 29.792.874/0001-00
+                        </p>
                     </div>
                     <div className={styles.contactform_texts_completeAdress}>
                         <p>
-                            Rua Paraú, 58 - Itaim Paulista, São Paulo - SP, 08120-060
+                        Rua Ilha de São Francisco, 283 - Itaim Paulista, São Paulo - SP, 08110-310
                         </p>
                     </div>
                     <div>

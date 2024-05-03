@@ -72,7 +72,7 @@ export const AboutContent = () => {
                                 <ul>
                                     <li>
                                         <p>
-                                            Fundação: Iniciamos nossas atividades com o Monomito Road trip
+                                            Fundação: Iniciamos nossas atividades com o Monomito Road trip 
                                             Batalha do tank vs SP, levando 50 jovens de diversas periferias 
                                             de São Paulo para participar da maior batalha de RAP do Brasil, 
                                             no RJ em São Gonçalo.
@@ -80,8 +80,8 @@ export const AboutContent = () => {
                                     </li>
                                     <li>
                                         <p>
-                                            Projeto Tarja Preta: Estabelecemos a biblioteca audiovisual 
-                                            de poetas marginais (SLAM).
+                                            Projeto Tarja Preta: Estabelecemos a biblioteca 
+                                            audiovisual de poetas marginais (SLAM);
                                         </p>
                                     </li>
                                 </ul>
