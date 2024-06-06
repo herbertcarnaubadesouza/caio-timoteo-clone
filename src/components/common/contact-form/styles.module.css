@@ -1,126 +1,126 @@
 .contactform_section {
-    width: 100%;
-    padding: 60px 0;
-    background-color: #000;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #000;
 }
 
 .contactform_wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .contactform_texts {
-    flex: 1;
+  flex: 1;
 }
 
 .contactform_texts h3 {
-    width: 66%;
-    margin-bottom: 20px;
-    font-family: PhonkFont;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #FFF;
+  width: 74%;
+  margin-bottom: 20px;
+  font-family: PhonkFont;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
 }
 
 .contactform_texts p {
-    font-size: 16px;
-    color: #FFF;
+  font-size: 16px;
+  color: #fff;
 }
 
 .contactform_texts p a {
-    color: #FFF;
-    text-decoration: underline;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .contactform_texts_completeAdress {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .contactform_form {
-   width: 45%;
+  width: 45%;
 }
 
 .contactform_form div {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .contactform_form input,
 .contactform_form textarea {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border: 1px solid #222;
-    background-color: #111;
-    font-size: 16px;
-    color: #FFF;
-    resize: none;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #222;
+  background-color: #111;
+  font-size: 16px;
+  color: #fff;
+  resize: none;
 }
 
 .contactform_form input {
-    height: 50px;
+  height: 50px;
 }
 
 .contactform_form textarea {
-    height: 150px;
+  height: 150px;
 }
 
 .contactform_form input::-webkit-input-placeholder,
 .contactform_form textarea::-webkit-input-placeholder {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
 }
 
 .contactform_form button {
-    border: none;
-    outline: none;
-    width: 100%;
-    height: 50px;
-    font-family: PhonkFont;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all .3s;
-    cursor: pointer;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 50px;
+  font-family: PhonkFont;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .contactform_form button:hover {
-    background-color: #333;
-    color: #FFF;
+  background-color: #333;
+  color: #fff;
 }
 
 .error_message {
-    margin-top: 4px;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    color: #FF0000;
-    opacity: .3;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #ff0000;
+  opacity: 0.3;
 }
 
 .error_message svg {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .contactform_section {
-        padding: 0 0 60px;
-    }
+  .contactform_section {
+    padding: 0 0 60px;
+  }
 
-    .contactform_wrapper {
-        width: 90%;
-        flex-direction: column;
-    }
+  .contactform_wrapper {
+    width: 90%;
+    flex-direction: column;
+  }
 
-    .contactform_form {
-        width: 100%;
-        margin-top: 60px;
-     }
+  .contactform_form {
+    width: 100%;
+    margin-top: 60px;
+  }
 
-     .contactform_texts h3 {
-        width: 100%;
-        font-size: 2rem;
-        text-align: center;
-     }
+  .contactform_texts h3 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+  }
 }
