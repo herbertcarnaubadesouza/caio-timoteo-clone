@@ -96,7 +96,7 @@
   align-items: center;
   gap: 4px;
   color: #ff0000;
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 .error_message svg {

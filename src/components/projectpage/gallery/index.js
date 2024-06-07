@@ -1,10 +1,19 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { projects } from "@/utils/projects";
+import { LightBox } from "@/components/common/lightbox";
 import styles from "./styles.module.css";
 
 export const SectionGallery = () => {
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
+
+  const handleOpenLightbox = (projectVideoUrl) => {
+    setVideoUrl(projectVideoUrl);
+    setIsLightboxOpen(true);
+  };
+
   return (
     <section className={styles.section_gallery}>
       <div>
@@ -12,11 +21,9 @@ export const SectionGallery = () => {
       </div>
       <div className={styles.section_gallery_grid}>
         {projects.map((project) => (
-          <Link
+          <button
             key={project.id}
-            href={`/projetos/${encodeURIComponent(
-              project.searchableKey.slice(1)
-            )}`}
+            onClick={() => handleOpenLightbox(project.projectVideoUrl)}
           >
             <Image
               className={styles.section_gallery_grid_image}
@@ -27,9 +34,14 @@ export const SectionGallery = () => {
               title={project.projectCoverImageTitle}
               layout="responsive"
             />
-          </Link>
+          </button>
         ))}
       </div>
+      <LightBox
+        setIsLightboxOpen={setIsLightboxOpen}
+        isLightboxOpen={isLightboxOpen}
+        videoUrl={videoUrl}
+      />
     </section>
   );
 };

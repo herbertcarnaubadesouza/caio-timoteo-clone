@@ -1,47 +1,52 @@
 .section_gallery {
-    width: 100%;
-    padding: 60px 0;
-    background-color: #000;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #000;
 }
 
 .section_gallery h2 {
-    padding: 60px 0 90px;
-    font-family: PhonkFont;
-    font-size: 3rem;
-    text-align: center;
-    color: #FFF;
+  padding: 60px 0 90px;
+  font-family: PhonkFont;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
 }
 
 .section_gallery_grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #000;
+}
+
+.section_gallery_grid button {
+  background: none;
+  border: none;
+  outline: none;
 }
 
 .section_gallery_grid_image {
-    text-decoration: none;
+  text-decoration: none;
 }
- 
 
 .section_gallery_grid_image:hover {
-    opacity: 0.3;
-    cursor: pointer;
-    transition: 0.5s;
+  opacity: 0.3;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .section_gallery_grid_image:not(:hover) {
-    transition: 0.8s;
+  transition: 0.8s;
 }
 
 @media only screen and (max-width: 1024px) {
-    .section_gallery h2 {
-        font-size: 2rem;
-        padding: 0px 0px 30px;
-    }
+  .section_gallery h2 {
+    font-size: 2rem;
+    padding: 0px 0px 30px;
+  }
 
-    .section_gallery_grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .section_gallery_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

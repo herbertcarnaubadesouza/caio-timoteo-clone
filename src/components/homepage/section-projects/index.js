@@ -3,8 +3,8 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/utils/projects";
-import styles from "./styles.module.css";
 import { LightBox } from "@/components/common/lightbox";
+import styles from "./styles.module.css";
 
 export const SectionProjects = () => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
