@@ -1,5 +1,5 @@
 import { SectionBanner } from "@/components/homepage/section-banner";
-import { SectionProjects } from "@/components/homepage/section-two";
+import { SectionProjects } from "@/components/homepage/section-projects";
 import { SectionAboutMonomito } from "@/components/common/section-about-monomito";
 import { SectionBrands } from "@/components/homepage/section-brands";
 import { SectionOurServices } from "@/components/common/section-our-services";
@@ -25,6 +25,6 @@ const HomePage = () => {
       </main>
     </section>
   );
-}
+};
 
-export default HomePage
+export default HomePage;
