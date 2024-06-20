@@ -34,22 +34,26 @@ export const AboutContent = () => {
                         <h2>O que fazemos</h2>
                         <div className={styles.about_description_texts}>
                             <p>
-                                Monomito Filmes é uma produtora audiovisual de impacto, situada no 
-                                bairro do Itaim Paulista, Zona Leste da Cidade de São Paulo, desde 
-                                2017 atuamos afim de democratizar o acesso à produção audiovisual 
-                                para empresas, artistas e criadores da periferia.
+                                A Monomito Filmes é uma produtora de conteúdo audiovisual com foco 
+                                em impacto social. Com 7 anos no mercado de produção audiovisual, 
+                                acumulamos uma expertise sólida e resultados comprovados.
                             </p>
                             <p>
-                                Acreditamos que a produção audiovisual é uma ferramenta importante para 
-                                construção de uma economia mais abrangente e acessível, assim realizamos 
-                                diversos projetos que vão desde formações até produções sociais. Desde o 
-                                início das nossas atividades já impactamos com nossos projetos mais de 250 
-                                pessoas.
+                                Trabalhamos para democratizar o acesso à produção audiovisual profissional,
+                                especialmente em periferias e favelas. Acreditamos no poder transformador da produção
+                                audiovisual e buscamos criar mudanças positivas por meio de nossos projetos.
                             </p>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.about_description}>
+                    <div>
+                        <h2>Compromisso Social</h2>
+                        <div className={styles.about_description_texts}>
                             <p>
-                                Com 4 anos de jornada em produção audiovisual, contamos com uma equipe 
-                                treinada e especializada, equipamentos compatíveis com o mercado e métodos 
-                                de produção eficientes.
+                                Vai além da produção. Somos impulsionados pelo propósito de
+                                democratizar o acesso à produção audiovisual, impactando positivamente comunidades
+                                locais e já conseguimos impactar mais de 300 pessoas com nossas produções.
                             </p>
                         </div>
                     </div>

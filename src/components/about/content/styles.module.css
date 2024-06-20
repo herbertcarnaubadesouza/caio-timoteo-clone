@@ -140,7 +140,7 @@
     }
 
     .about_title h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .about_description {
@@ -148,7 +148,7 @@
     }
 
     .about_description h2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .about_description_texts {
@@ -166,7 +166,7 @@
     }
 
     .about_lastYears h2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .about_lastYears_texts h3 {

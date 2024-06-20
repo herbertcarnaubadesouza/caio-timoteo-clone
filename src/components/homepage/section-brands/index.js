@@ -16,8 +16,8 @@ export const SectionBrands = () => {
                         src="/logo-prefeitura-sp.png"
                         alt="Prefeitura de São Paulo"
                         title="Prefeitura de São Paulo"
-                        width={200}
-                        height={60}
+                        width={180}
+                        height={55}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -25,8 +25,8 @@ export const SectionBrands = () => {
                         src="/logo-sesc.png"
                         alt="SESC"
                         title="SESC"
-                        width={140}
-                        height={60}
+                        width={110}
+                        height={50}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -34,8 +34,8 @@ export const SectionBrands = () => {
                         src="/logo-virada-cultural.png"
                         alt="Virada Cultural"
                         title="Virada Cultural"
-                        width={170}
-                        height={80}
+                        width={140}
+                        height={50}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -43,8 +43,8 @@ export const SectionBrands = () => {
                         src="/logo-galpao.png"
                         alt="Galpão"
                         title="Galpão"
-                        width={170}
-                        height={80}
+                        width={130}
+                        height={70}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -52,8 +52,8 @@ export const SectionBrands = () => {
                         src="/logo-empreendeai.png"
                         alt="Empreende Aí"
                         title="Empreende Aí"
-                        width={200}
-                        height={80}
+                        width={170}
+                        height={55}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -61,8 +61,8 @@ export const SectionBrands = () => {
                         src="/logo-cactus.png"
                         alt="Cactus"
                         title="Cactus"
-                        width={200}
-                        height={120}
+                        width={160}
+                        height={100}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -70,8 +70,8 @@ export const SectionBrands = () => {
                         src="/logo-iab-dn.png"
                         alt="Instituto de Arquitetos do Brasil"
                         title="Instituto de Arquitetos do Brasil"
-                        width={200}
-                        height={80}
+                        width={170}
+                        height={60}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -88,7 +88,7 @@ export const SectionBrands = () => {
                         src="/logo-instituto-tomie-ohtake.png"
                         alt="Instituto Tomie Ohtake"
                         title="Instituto Tomie Ohtake"
-                        width={150}
+                        width={140}
                         height={60}
                     />
                 </div>
@@ -97,8 +97,8 @@ export const SectionBrands = () => {
                         src="/logo-world-resources-institute.png"
                         alt="World Resources Institute"
                         title="World Resources Institute"
-                        width={200}
-                        height={60}
+                        width={180}
+                        height={50}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -106,7 +106,7 @@ export const SectionBrands = () => {
                         src="/logo-tide.png"
                         alt="Função Tide Setubal"
                         title="Função Tide Setubal"
-                        width={180}
+                        width={150}
                         height={80}
                     />
                 </div>
@@ -115,7 +115,7 @@ export const SectionBrands = () => {
                         src="/logo-gerandofalcoes.png"
                         alt="Gerando Falcões"
                         title="Gerando Falcões"
-                        width={200}
+                        width={150}
                         height={60}
                     />
                 </div>
@@ -124,8 +124,8 @@ export const SectionBrands = () => {
                         src="/logo-google.png"
                         alt="Google"
                         title="Google"
-                        width={200}
-                        height={60}
+                        width={160}
+                        height={50}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -133,8 +133,8 @@ export const SectionBrands = () => {
                         src="/logo-tiktok.png"
                         alt="TikTok"
                         title="TikTok"
-                        width={200}
-                        height={60}
+                        width={160}
+                        height={50}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -142,8 +142,8 @@ export const SectionBrands = () => {
                         src="/logo-amazon.png"
                         alt="Amazon"
                         title="Amazon"
-                        width={200}
-                        height={50}
+                        width={140}
+                        height={40}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -151,8 +151,8 @@ export const SectionBrands = () => {
                         src="/logo-firgun.png"
                         alt="Firgun"
                         title="Firgun"
-                        width={200}
-                        height={50}
+                        width={160}
+                        height={40}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -160,8 +160,8 @@ export const SectionBrands = () => {
                         src="/logo-ifood.png"
                         alt="iFood"
                         title="iFood"
-                        width={140}
-                        height={55}
+                        width={110}
+                        height={50}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -169,8 +169,8 @@ export const SectionBrands = () => {
                         src="/logo-carrefour.png"
                         alt="Carrefour"
                         title="Carrefour"
-                        width={160}
-                        height={85}
+                        width={100}
+                        height={70}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -178,8 +178,8 @@ export const SectionBrands = () => {
                         src="/logo-globo.png"
                         alt="Globo"
                         title="Globo"
-                        width={150}
-                        height={100}
+                        width={85}
+                        height={70}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -187,8 +187,8 @@ export const SectionBrands = () => {
                         src="/logo-banka.png"
                         alt="A Banka"
                         title="A Banka"
-                        width={220}
-                        height={120}
+                        width={180}
+                        height={110}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -196,8 +196,8 @@ export const SectionBrands = () => {
                         src="/logo-netflix.png"
                         alt="Netflix"
                         title="Netflix"
-                        width={180}
-                        height={55}
+                        width={130}
+                        height={40}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -205,8 +205,8 @@ export const SectionBrands = () => {
                         src="/logo-accor.png"
                         alt="Accor"
                         title="Accor"
-                        width={150}
-                        height={100}
+                        width={100}
+                        height={75}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -214,8 +214,8 @@ export const SectionBrands = () => {
                         src="/logo-pg.png"
                         alt="P&G"
                         title="P&G"
-                        width={150}
-                        height={70}
+                        width={100}
+                        height={40}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -223,8 +223,8 @@ export const SectionBrands = () => {
                         src="/logo-danone.png"
                         alt="Danone"
                         title="Danone"
-                        width={180}
-                        height={70}
+                        width={120}
+                        height={40}
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -232,8 +232,8 @@ export const SectionBrands = () => {
                         src="/logo-paramount.png"
                         alt="Paramount"
                         title="Paramount"
-                        width={200}
-                        height={90}
+                        width={155}
+                        height={60}
                     />
                 </div>
             </div>

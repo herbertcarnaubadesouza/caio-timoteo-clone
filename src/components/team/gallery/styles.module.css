@@ -63,7 +63,7 @@
 }
 
 .teamGallery_item h3 {
-    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
@@ -122,6 +122,10 @@
 }
 
 @media only screen and (max-width: 640px) {
+    .teamGallery_title h1 {
+        font-size: 1.8rem;
+    }
+
     .teamGallery_wrapper {
         width: 80%;
     }
@@ -138,10 +142,6 @@
 
     .teamGallery_slider {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .teamGallery_title h1 {
-        font-size: 2rem;
     }
 
     .teamGallery_picture {

@@ -18,7 +18,7 @@
     margin-bottom: 40px;
 }
 
-.contact_texts_item h3 {
+.contact_texts_item h1, .contact_texts_item h2 {
     font-family: PhonkFont;
     font-size: 3rem;
     font-weight: bold;
@@ -77,8 +77,8 @@
         flex-direction: column;
     }
 
-    .contact_texts_item h3 {
-        font-size: 2rem;
+    .contact_texts_item h1, .contact_texts_item h2 {
+        font-size: 1.5rem;
     }
 
     .contact_texts_item p {

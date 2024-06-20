@@ -77,7 +77,6 @@ export const ContactForm = () => {
               progress: undefined,
               theme: "dark",
             })
-            alert("catch")
           }
     }
 

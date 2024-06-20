@@ -10,10 +10,9 @@ export const SectionAboutMonomito = () => {
 
         <div>
           <p>
-            A Monomito Filmes é uma produtora audiovisual com foco em impacto
-            social. Produzimos filmes publicitários, institucionais, vídeos de
-            treinamento, comunicação interna, cobertura de eventos e outros
-            produtos para comunicação audiovisual do seu negócio.
+            Somos uma produtora audiovisual com foco em impacto social. Produzimos filmes
+            publicitários, institucionais, vídeos de treinamento, comunicação interna, cobertura de
+            eventos e outros produtos para comunicação audiovisual do seu negócio.
           </p>
         </div>
       </div>
@@ -22,11 +21,11 @@ export const SectionAboutMonomito = () => {
 
         <div>
           <p>
-            Com 4 anos de jornada em produção audiovisual, contamos com uma equipe 
-            treinada e especializada, equipamentos compatíveis com o mercado e métodos 
-            de produção eficientes. Estamos mais do que preparados em atender suas expectativas, 
-            ao longos deste 4 anos tivemos muitos feitos e experiências que foram reconhecidas através 
-            de diversas indicações à prêmios e eventos de muita importância para o mercado audiovisual.
+            Com 7 anos no mercado de produção audiovisual, acumulamos uma expertise sólida e
+            resultados comprovados. Acreditamos no poder transformador da produção audiovisual 
+            e buscamos criar mudanças positivas por meio de nossos projetos. Nossa equipe especializada 
+            e nossos recursos técnicos nos permitem entregar resultados de alta qualidade. Junte-se a nós 
+            para contar histórias que inspiram e impactam o mundo.
           </p>
 
           <Link href="/sobre">

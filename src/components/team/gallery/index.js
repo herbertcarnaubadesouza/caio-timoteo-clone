@@ -47,6 +47,9 @@ export const TeamGallery = () => {
                                         <h2>
                                             {people.name}
                                         </h2>
+                                        <h3>
+                                            {people.function}
+                                        </h3>
                                         <p>
                                             {people.descriptionOne}
                                         </p>

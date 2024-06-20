@@ -17,9 +17,9 @@ export const ContactContent = () => {
             <div className={styles.contact_wrapper}>
                 <div className={styles.contact_texts}>
                     <div className={styles.contact_texts_item}>
-                        <h3>
+                        <h1>
                             Fale conosco
-                        </h3> 
+                        </h1> 
                         <p>
                             Preencha os campos do <strong>formulário</strong> e envie sua mensagem,
                             ficaremos contentes em atendê-lo.
@@ -30,9 +30,9 @@ export const ContactContent = () => {
                         </p>
                     </div>
                     <div className={styles.contact_texts_item}>
-                        <h3>
+                        <h2>
                             WhatsApp
-                        </h3> 
+                        </h2> 
                         <p>
                             Se preferir, entre conosco através do nosso <strong>WhatsApp</strong>.
                         </p>
@@ -70,13 +70,13 @@ export const ContactContent = () => {
                 </div>
                 <div className={styles.contact_map}>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.944505679062!2d-46.401215288249915!3d-23.498508259199493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6378de33c53d%3A0xb660fe9600834507!2sRua%20Para%C3%BA%2C%2058%20-%20Itaim%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008120-060!5e0!3m2!1spt-BR!2sbr!4v1712350446601!5m2!1spt-BR!2sbr"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.914962645863!2d-46.40734638824965!3d-23.499572259238338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63839e822eb9%3A0xe9b4528271aec7d4!2sRua%20Ilha%20de%20S%C3%A3o%20Francisco%2C%20283%20-%20Vila%20Silva%20Teles%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008110-310!5e0!3m2!1spt-BR!2sbr!4v1718900952998!5m2!1spt-BR!2sbr"
                         width="100%"
                         height="450"
-                        allowFullScreen
-                        loading="lazy"
                         style={{ border: 0 }}
-                        referrerPolicy="no-referrer-when-downgrade"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
                     />
                 </div>
             </div>
