@@ -97,8 +97,10 @@ export const SectionBrands = () => {
                         src="/logo-world-resources-institute.png"
                         alt="World Resources Institute"
                         title="World Resources Institute"
-                        width={180}
-                        height={50}
+                        sizes="100vh"
+                        width={0}
+                        height={0}
+                        style={{ width: '230px', height: '91%' }} 
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -160,8 +162,10 @@ export const SectionBrands = () => {
                         src="/logo-ifood.png"
                         alt="iFood"
                         title="iFood"
-                        width={110}
-                        height={50}
+                        sizes="100vh"
+                        width={0}
+                        height={0}
+                        style={{ width: '130px', height: '75px' }} 
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -169,8 +173,10 @@ export const SectionBrands = () => {
                         src="/logo-carrefour.png"
                         alt="Carrefour"
                         title="Carrefour"
-                        width={100}
-                        height={70}
+                        sizes="100vh"
+                        width={0}
+                        height={0}
+                        style={{ width: '139px', height: '91%' }} 
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -178,8 +184,10 @@ export const SectionBrands = () => {
                         src="/logo-globo.png"
                         alt="Globo"
                         title="Globo"
-                        width={85}
-                        height={70}
+                        sizes="100vh"
+                        width={0}
+                        height={0}
+                        style={{ width: '115px', height: '100%' }} 
                     />
                 </div>
                 <div className={styles.section_brands_item}>
@@ -232,8 +240,10 @@ export const SectionBrands = () => {
                         src="/logo-paramount.png"
                         alt="Paramount"
                         title="Paramount"
-                        width={155}
-                        height={60}
+                        sizes="100vh"
+                        width={0}
+                        height={0}
+                        style={{ width: '150px', height: '100%' }} 
                     />
                 </div>
             </div>

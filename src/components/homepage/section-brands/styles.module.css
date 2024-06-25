@@ -52,6 +52,9 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 60px;
   }
+  .logo_globo {
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 1024px) {
