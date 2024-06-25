@@ -165,7 +165,7 @@ export const SectionBrands = () => {
                         sizes="100vh"
                         width={0}
                         height={0}
-                        style={{ width: '130px', height: '75px' }} 
+                        style={{ width: '140px', height: '75px' }} 
                     />
                 </div>
                 <div className={styles.section_brands_item}>
