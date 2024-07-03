@@ -22,7 +22,10 @@ export const SectionAboutMonomito = () => {
         <div>
           <p>
             Com 7 anos no mercado de produção audiovisual, acumulamos uma expertise sólida e
-            resultados comprovados. Acreditamos no poder transformador da produção audiovisual 
+            resultados comprovados. 
+          </p>  
+          <p>
+            Acreditamos no poder transformador da produção audiovisual 
             e buscamos criar mudanças positivas por meio de nossos projetos. Nossa equipe especializada 
             e nossos recursos técnicos nos permitem entregar resultados de alta qualidade. Junte-se a nós 
             para contar histórias que inspiram e impactam o mundo.

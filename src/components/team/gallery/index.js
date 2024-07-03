@@ -32,7 +32,14 @@ export const TeamGallery = () => {
                                     <h3>
                                         {people.function}
                                     </h3>
+                                    <p>
+                                        {people.descriptionOne}
+                                    </p>
+                                    <p>
+                                        {people.descriptionTwo}
+                                    </p>
                                 </div>
+                                
                                 <div className={styles.teamGallery_overlay}>
                                     <div className={styles.teamGallery_overlay_picture}>
                                         <Image
