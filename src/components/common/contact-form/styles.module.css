@@ -117,10 +117,11 @@
     width: 100%;
     margin-top: 60px;
   }
-
+  .contactform_texts {
+    text-align: center;
+  }
   .contactform_texts h3 {
     width: 100%;
     font-size: 1.5rem;
-    text-align: center;
   }
 }
