@@ -6,9 +6,7 @@ export const projects = [
     projectCoverImage: "/thumb-glamazon.png",
     projectCoverImageAlt: "Glamazon 2023 - Aftermovie - Monomito Filmes",
     projectCoverImageTitle: "Glamazon 2023 - Aftermovie - Monomito Filmes",
-    projectVideoUrl: "https://www.youtube.com/embed/wwECDpnscQs?si=uQ6efLAfKsyVVcV4",
-
-
+    projectVideoUrl: "https://www.youtube.com/embed/2bQTjZdq8KQ?si=FU6rB3ZKTsHvxC5p",
   },
   {
     id: 2,
@@ -17,7 +15,7 @@ export const projects = [
     projectCoverImage: "/thumb-premio-led.png",
     projectCoverImageAlt: "Making of Prêmio LED - GLOBO - Monomito Filmes",
     projectCoverImageTitle: "Making of Prêmio LED - GLOBO - Monomito Filmes",
-    projectVideoUrl: "https://www.youtube.com/embed/PWGGI6odXdo?si=ZAII06KGZGKYqlrS",
+    projectVideoUrl: "https://www.youtube.com/embed/V35QwB2MiV8?si=FU8qCf-F6lSiAUBg",
 
   },
   {
