@@ -3,8 +3,6 @@ import { IoClose } from "react-icons/io5";
 import styles from "./styles.module.css";
 
 export const LightBox = ({ setIsLightboxOpen, isLightboxOpen, videoUrl }) => {
-  console.log("videoUrl", videoUrl);
-
   return (
     <div>
       {isLightboxOpen && (
