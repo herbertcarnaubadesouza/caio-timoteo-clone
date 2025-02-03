@@ -14,7 +14,7 @@ export const Header = () => {
         <div>
           <Link href="/">
             <h1>
-              Monomito Filmes s
+              Monomito Filmes
             </h1>
           </Link>
         </div>
