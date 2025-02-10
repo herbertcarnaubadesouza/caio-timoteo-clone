@@ -50,6 +50,8 @@ jobs:
             404
             404.html
             **concurrent-uploads: 1**
+            **dangerous-clean-slate: true**
+            **passive: true**
 
       # 2) Deploy das imagens (e/ou vídeos)
       - name: Deploy Images
@@ -78,3 +80,5 @@ jobs:
             404
             404.html
             **concurrent-uploads: 1**
+            **dangerous-clean-slate: true**
+            **passive: true**
