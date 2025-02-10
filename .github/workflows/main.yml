@@ -31,6 +31,7 @@ jobs:
           password: Huehuebr12
           protocol: ftp # ou ftps, se necessário
           port: 21
+          force: true
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./out/"
           exclude: |
@@ -63,6 +64,7 @@ jobs:
           password: Huehuebr12
           protocol: ftp
           port: 21
+          force: true
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./out/"
           exclude: |
