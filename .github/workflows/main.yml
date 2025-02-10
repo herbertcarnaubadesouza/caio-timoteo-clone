@@ -19,6 +19,6 @@ jobs:
           username: monomitofilmes
           password: Huehuebr12
           server-dir: "/home/monomitofilmes/www"
-          local-dir: "."
+          local-dir: "./"
           exclude: |
             public/*
