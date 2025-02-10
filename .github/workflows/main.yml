@@ -18,9 +18,6 @@ jobs:
       - name: Build + Export
         run: |
           npm run build
-          # Se usar Next 13 com "output: 'export'", normalmente já gera a pasta.
-          # Caso contrário, faça também:
-          npm run export
 
       # (Opcional) Checar se a pasta "out/" existe agora
       - name: List generated files
