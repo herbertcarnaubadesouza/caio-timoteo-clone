@@ -42,4 +42,4 @@ jobs:
           auto-retry: true
           disable-verification: true
           server-dir: "/home/monomitofilmes/www/"
-          local-dir: "./out_temp/"
+          local-dir: "./out_temp/" # ⬅ Now using a folder
