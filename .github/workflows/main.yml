@@ -22,4 +22,5 @@ jobs:
           local-dir: "./"
           exclude: |
             public/*
-            .git
+          .git*
+  .github*
