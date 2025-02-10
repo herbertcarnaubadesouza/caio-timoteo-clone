@@ -9,33 +9,57 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the repository
+      - name: Checkout do repositório
         uses: actions/checkout@v3
 
-      - name: Install dependencies
+      - name: Instalar dependências
         run: npm install
 
       - name: Build + Export
-        run: |
-          npm run build
+        run: npm run build
 
-      # (Opcional) Checar se a pasta "out/" existe agora
-      - name: List generated files
-        run: ls -l out
+      - name: Listar arquivos (opcional)
+        run: ls -R out
 
-      - name: Deploy to FTP
+      # 1) Deploy apenas dos arquivos de texto / HTML
+      - name: Deploy Text Files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
           password: Huehuebr12
+          protocol: ftp # ou ftps, se necessário
+          port: 21
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./out/"
           exclude: |
-            **/.git*
-            **/.github*/
-            **/node_modules*/
-            _next/
-            _next/**
-            404
-            404.html
+            # Excluímos imagens e outros arquivos grandes nesta primeira leva
+            **/*.png
+            **/*.jpg
+            **/*.jpeg
+            **/*.gif
+            **/*.svg
+            **/*.mp4
+            **/*.mov
+          # Impede que o Action delete coisas que não estão no local-dir
+          delete: false
+
+      # 2) Deploy das imagens (e/ou vídeos)
+      - name: Deploy Images
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.monomitofilmes.com.br
+          username: monomitofilmes
+          password: Huehuebr12
+          protocol: ftp
+          port: 21
+          server-dir: "/home/monomitofilmes/www/"
+          local-dir: "./out/"
+          exclude: |
+            # Desta vez, excluímos arquivos de texto/HTML/JS, subindo só as imagens
+            **/*.html
+            **/*.txt
+            **/*.js
+            **/*.json
+            **/*.css
+          delete: false
