@@ -35,4 +35,5 @@ jobs:
             **/.git*
             **/.github*/
             **/node_modules*/
-            **/_next**
+            **/out/_next/
+            **/out/_next/**
