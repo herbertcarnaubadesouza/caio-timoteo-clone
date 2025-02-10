@@ -25,17 +25,19 @@ jobs:
       - name: Deploy Text Files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          timeout: 60000
+          timeout: 180000 # Increased timeout
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
           password: Huehuebr12
-          protocol: ftp # ou ftps, se necessário
+          protocol: ftp
           port: 21
           force: true
+          concurrent-uploads: 1 # Reduced uploads to prevent errors
+          passive: false # Use active mode
+          auto-retry: true # Retry on failure
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./out/"
           exclude: |
-            # Excluímos imagens e outros arquivos grandes nesta primeira leva
             **/*.png
             **/*.jpg
             **/*.jpeg
@@ -43,44 +45,40 @@ jobs:
             **/*.svg
             **/*.mp4
             **/*.mov
-             **/.git*
+            **/.git*
             **/.github*/
             **/node_modules*/
             _next/
             _next/**
             404
             404.html
-            **concurrent-uploads: 1**
-            **dangerous-clean-slate: true**
-            **passive: true**
 
       # 2) Deploy das imagens (e/ou vídeos)
       - name: Deploy Images
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          timeout: 60000
+          timeout: 180000
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
           password: Huehuebr12
           protocol: ftp
           port: 21
           force: true
+          concurrent-uploads: 1
+          passive: false
+          auto-retry: true
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./out/"
           exclude: |
-            # Desta vez, excluímos arquivos de texto/HTML/JS, subindo só as imagens
             **/*.html
             **/*.txt
             **/*.js
             **/*.json
             **/*.css
-             **/.git*
+            **/.git*
             **/.github*/
             **/node_modules*/
             _next/
             _next/**
             404
             404.html
-            **concurrent-uploads: 1**
-            **dangerous-clean-slate: true**
-            **passive: true**
