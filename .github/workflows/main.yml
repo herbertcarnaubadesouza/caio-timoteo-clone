@@ -18,7 +18,7 @@ jobs:
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
           password: Huehuebr12
-          server-dir: /home/monomitofilmes/
+          server-dir: /home/monomitofilmes/www/
 
       - name: 📦 Deploy to Alternate FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
