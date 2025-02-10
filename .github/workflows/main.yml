@@ -38,7 +38,7 @@ jobs:
           auto-retry: true # Retry on failure
           disable-verification: true
           server-dir: "/home/monomitofilmes/www/"
-          local-dir: "./out/"
+          local-dir: "./out/contato.html"
           exclude: |
             **/*.png
             **/*.jpg
@@ -55,7 +55,7 @@ jobs:
             404
             404.html
 
-      - name: Deploy Images
+      # - name: Deploy Images
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           keepalive: true
