@@ -37,3 +37,4 @@ jobs:
             **/node_modules*/
             _next/
             _next/**
+            404.html
