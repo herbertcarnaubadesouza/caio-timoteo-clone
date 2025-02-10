@@ -54,7 +54,6 @@ jobs:
             404
             404.html
 
-      # 2) Deploy das imagens (e/ou vídeos)
       - name: Deploy Images
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
