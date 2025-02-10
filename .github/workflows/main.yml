@@ -38,7 +38,7 @@ jobs:
           auto-retry: true # Retry on failure
           disable-verification: true
           server-dir: "/home/monomitofilmes/www/"
-          local-dir: "./out/contato.html/"
+          local-dir: "./out/contato.html"
           exclude: |
             **/*.png
             **/*.jpg
@@ -47,37 +47,6 @@ jobs:
             **/*.svg
             **/*.mp4
             **/*.mov
-            **/.git*
-            **/.github*/
-            **/node_modules*/
-            _next/
-            _next/**
-            404
-            404.html
-
-      # - name: Deploy Images
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          keepalive: true
-          timeout: 180000
-          server: ftp.monomitofilmes.com.br
-          username: monomitofilmes
-          password: Huehuebr12
-          protocol: ftp
-          port: 21
-          force: true
-          concurrent-uploads: 1
-          passive: true
-          auto-retry: true
-          disable-verification: true
-          server-dir: "/home/monomitofilmes/www/"
-          local-dir: "./out/"
-          exclude: |
-            **/*.html
-            **/*.txt
-            **/*.js
-            **/*.json
-            **/*.css
             **/.git*
             **/.github*/
             **/node_modules*/
