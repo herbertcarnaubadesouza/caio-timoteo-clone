@@ -25,7 +25,7 @@ jobs:
             **/.git*/**
             **/.github*
             **/node_modules*
-            public/*
+            **/public/**
             .gitignore
             .editorconfig
             ...
