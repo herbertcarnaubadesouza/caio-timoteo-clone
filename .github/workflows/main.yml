@@ -26,20 +26,23 @@ jobs:
       - name: Listar arquivos na pasta temporária (debug)
         run: ls -R out_temp
 
+      - name: Testar Conexão FTP no GitHub Actions
+        run: |
+          curl -v --ftp-pasv -u monomitofilmes:Huehuebr12 ftp://ftp.monomitofilmes.com.br
+
       - name: Deploy contato.html
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          keepalive: true
-          timeout: 180000
+          timeout: 300000 # 5 minutos para evitar timeout
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
           password: Huehuebr12
-          protocol: ftp
+          protocol: ftps # Alterado de FTP para FTPS
           port: 21
-          force: true
-          concurrent-uploads: 1
-          passive: true
+          concurrent-uploads: 1 # Apenas 1 upload por vez
+          passive: false # Se falhar, troque para passive: true
           auto-retry: true
-          disable-verification: true
+          keepalive: true
+          disable-verification: false
           server-dir: "/home/monomitofilmes/www/"
-          local-dir: "./out_temp/" # ⬅ Now using a folder
+          local-dir: "./out_temp/"
