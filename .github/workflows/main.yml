@@ -41,6 +41,13 @@ jobs:
             **/*.svg
             **/*.mp4
             **/*.mov
+             **/.git*
+            **/.github*/
+            **/node_modules*/
+            _next/
+            _next/**
+            404
+            404.html
           # Impede que o Action delete coisas que não estão no local-dir
           delete: false
 
@@ -62,4 +69,11 @@ jobs:
             **/*.js
             **/*.json
             **/*.css
+             **/.git*
+            **/.github*/
+            **/node_modules*/
+            _next/
+            _next/**
+            404
+            404.html
           delete: false
