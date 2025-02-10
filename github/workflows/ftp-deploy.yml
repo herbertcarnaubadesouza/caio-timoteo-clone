@@ -1,0 +1,29 @@
+name: 🚀 Deploy via FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ftp-deploy:
+    name: 📂 FTP Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 📦 Deploy to Primary FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.monomitofilmes.com.br
+          username: monomitofilmes
+          password: Huehuebr12
+          server-dir: /home/monomitofilmes/
+
+      - name: 📦 Deploy to Alternate FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.nodejs36f02.kinghost.net
+          username: monomitofilmes
+          password: Huehuebr12
+          server-dir: /
