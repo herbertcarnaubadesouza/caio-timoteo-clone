@@ -49,6 +49,7 @@ jobs:
             _next/**
             404
             404.html
+            **concurrent-uploads: 1**
 
       # 2) Deploy das imagens (e/ou vídeos)
       - name: Deploy Images
@@ -76,3 +77,4 @@ jobs:
             _next/**
             404
             404.html
+            **concurrent-uploads: 1**
