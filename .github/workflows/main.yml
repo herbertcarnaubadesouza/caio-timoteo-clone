@@ -25,6 +25,7 @@ jobs:
       - name: Deploy Text Files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
+          keepalive: true
           timeout: 180000 # Increased timeout
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
@@ -57,6 +58,7 @@ jobs:
       - name: Deploy Images
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
+          keepalive: true
           timeout: 180000
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
