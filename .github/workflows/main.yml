@@ -25,6 +25,7 @@ jobs:
       - name: Deploy Text Files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
+          timeout: 60000
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
           password: Huehuebr12
@@ -48,13 +49,12 @@ jobs:
             _next/**
             404
             404.html
-          # Impede que o Action delete coisas que não estão no local-dir
-          delete: false
 
       # 2) Deploy das imagens (e/ou vídeos)
       - name: Deploy Images
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
+          timeout: 60000
           server: ftp.monomitofilmes.com.br
           username: monomitofilmes
           password: Huehuebr12
@@ -76,4 +76,3 @@ jobs:
             _next/**
             404
             404.html
-          delete: false
