@@ -1,4 +1,4 @@
-name: 🚀 Deploy via FTP
+name: Deploy Next.js Static
 
 on:
   push:
@@ -6,13 +6,27 @@ on:
       - main
 
 jobs:
-  ftp-deploy:
-    name: 📂 FTP Deploy
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Check out the repository
+        uses: actions/checkout@v3
 
-      - name: 📦 Deploy to Primary FTP
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build + Export
+        run: |
+          npm run build
+          # Se usar Next 13 com "output: 'export'", normalmente já gera a pasta.
+          # Caso contrário, faça também:
+          npm run export
+
+      # (Opcional) Checar se a pasta "out/" existe agora
+      - name: List generated files
+        run: ls -l out
+
+      - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.monomitofilmes.com.br
@@ -22,10 +36,5 @@ jobs:
           local-dir: "./out/"
           exclude: |
             **/.git*
-            **/.git*/**
-            **/.github*
-            **/node_modules*
-            **/public/**
-            .gitignore
-            .editorconfig
-            ...
+            **/.github*/
+            **/node_modules*/
