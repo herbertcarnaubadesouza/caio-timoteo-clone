@@ -21,6 +21,9 @@ jobs:
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./"
           exclude: |
-            public/*
             **/.git*
             **/.github*
+            **/node_modules*
+            .gitignore
+            .editorconfig
+            ...
