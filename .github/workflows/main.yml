@@ -38,7 +38,7 @@ jobs:
           auto-retry: true # Retry on failure
           disable-verification: true
           server-dir: "/home/monomitofilmes/www/"
-          local-dir: "./out/contato.html"
+          local-dir: "./out/contato.html/"
           exclude: |
             **/*.png
             **/*.jpg
