@@ -33,8 +33,9 @@ jobs:
           port: 21
           force: true
           concurrent-uploads: 1 # Reduced uploads to prevent errors
-          passive: false # Use active mode
+          passive: true # Use active mode
           auto-retry: true # Retry on failure
+          disable-verification: true
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./out/"
           exclude: |
@@ -65,8 +66,9 @@ jobs:
           port: 21
           force: true
           concurrent-uploads: 1
-          passive: false
+          passive: true
           auto-retry: true
+          disable-verification: true
           server-dir: "/home/monomitofilmes/www/"
           local-dir: "./out/"
           exclude: |
